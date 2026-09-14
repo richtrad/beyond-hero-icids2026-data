@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; object-src 'none'">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Archetype Validator</title>
+  <link rel="stylesheet" href="styles.css?v=hover1">
+</head>
+<body>
+  <p style="padding:12px;text-align:center;background:#fff4d9;color:#382700">Archivní ukázka hodnoticího kola. Odpovědi se ukládají pouze lokálně v tomto prohlížeči.</p>
+  <main class="app" id="app">
+    <header class="header">
+      <div>
+        <h1>Archetype Validator</h1>
+        <p class="subtitle">Vyber primární, sekundární a případně třetí archetyp postavy.</p>
+      </div>
+      <div class="progress" id="progress">0 / 0</div>
+    </header>
+
+    <section class="stage" aria-live="polite">
+      <div class="wheel" id="wheel" aria-label="Výběr archetypů">
+        <div class="ring-labels" id="ringLabels"></div>
+        <div class="center-card">
+          <div class="label">Postava</div>
+          <div class="name" id="characterName">Načítám…</div>
+          <div class="game" id="gameTitle"></div>
+        </div>
+      </div>
+    </section>
+
+    <p class="selection-note" id="selectionNote">Zatím není vybrán žádný archetyp.</p>
+
+    <nav class="controls" aria-label="Ovládání validátoru">
+      <button class="btn secondary" id="skipBtn" type="button">Přeskočit</button>
+      <button class="btn primary" id="confirmBtn" type="button" disabled>Potvrdit výběr</button>
+    </nav>
+
+    <footer class="footer">
+      <button class="linkbtn" id="exportBtn" type="button">Export lokálních dat</button>
+      <span class="status" id="status"></span>
+    </footer>
+  </main>
+
+  <template id="archetypeTemplate">
+    <button class="arch" type="button">
+      <span class="rank"></span>
+      <span class="arch-name"></span>
+    </button>
+  </template>
+
+  <script src="config.js"></script>
+  <script src="character_order_cleanup.js?v=henry3"></script>
+  <script src="back_button_patch.js?v=back1"></script>
+  <script src="archetype_side_panels.js?v=back1"></script>
+  <script src="ui_patch_show_game.js?v=back1"></script>
+</body>
+</html>

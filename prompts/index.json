@@ -1,0 +1,38 @@
+[
+  {
+    "path": "prompts/steam_prepare_protagonist_batch_v001.system.txt",
+    "source": "archive/code/steam_prepare_protagonist_batch_v001.py",
+    "source_line": 32,
+    "status": "extracted_original_literal"
+  },
+  {
+    "path": "prompts/steam_prepare_protagonist_batch_v002_taxonomy.system-template.py.txt",
+    "source": "archive/code/steam_prepare_protagonist_batch_v002_taxonomy.py",
+    "source_line": 84,
+    "status": "original_template_expression_not_evaluated"
+  },
+  {
+    "path": "prompts/steam_prepare_protagonist_batch_v003_chunked_taxonomy.system.txt",
+    "source": "archive/code/steam_prepare_protagonist_batch_v003_chunked_taxonomy.py",
+    "source_line": 79,
+    "status": "extracted_original_literal"
+  },
+  {
+    "path": "prompts/steam_prepare_protagonist_batch_v004_50k_5_5_economy.system.txt",
+    "source": "archive/code/steam_prepare_protagonist_batch_v004_50k_5_5_economy.py",
+    "source_line": 91,
+    "status": "extracted_original_literal"
+  },
+  {
+    "path": "prompts/steam_prepare_protagonist_batch_v005_split_1000_55_rest_54mini.system.txt",
+    "source": "archive/code/steam_prepare_protagonist_batch_v005_split_1000_55_rest_54mini.py",
+    "source_line": 96,
+    "status": "extracted_original_literal"
+  },
+  {
+    "path": "prompts/steam_prepare_rest_parts_v006_54mini.system.txt",
+    "source": "archive/code/steam_prepare_rest_parts_v006_54mini.py",
+    "source_line": 87,
+    "status": "extracted_original_literal"
+  }
+]

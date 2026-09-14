@@ -1,0 +1,17 @@
+[
+  {
+    "id": "arthur_morgan",
+    "name": "Arthur Morgan",
+    "gameTitle": "Red Dead Redemption 2"
+  },
+  {
+    "id": "lara_croft",
+    "name": "Lara Croft",
+    "gameTitle": "Tomb Raider"
+  },
+  {
+    "id": "glados",
+    "name": "GLaDOS",
+    "gameTitle": "Portal 2"
+  }
+]

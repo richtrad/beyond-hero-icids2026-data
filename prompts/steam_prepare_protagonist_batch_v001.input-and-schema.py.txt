@@ -1,0 +1,78 @@
+SCHEMA = {
+    "type": "object",
+    "additionalProperties": False,
+    "properties": {
+        "appid": {"type": "integer"},
+        "name": {"type": "string"},
+        "has_clear_main_protagonist": {
+            "type": "string",
+            "enum": ["yes", "no", "uncertain"]
+        },
+        "protagonist_name": {"type": "string"},
+        "protagonist_type": {
+            "type": "string",
+            "enum": [
+                "fixed_named_single",
+                "fixed_role_single",
+                "customizable_but_defined",
+                "fixed_dual",
+                "fixed_ensemble",
+                "silent_fixed_protagonist",
+                "nonhuman_fixed_protagonist",
+                "player_avatar",
+                "strategy_or_systemic_role",
+                "simulator_or_management_role",
+                "sports_or_racing_role",
+                "no_clear_protagonist",
+                "uncertain"
+            ]
+        },
+        "protagonist_confidence_0_3": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 3
+        },
+        "archetype_suitability_0_3": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 3
+        },
+        "primary_archetype_candidate": {"type": "string"},
+        "secondary_archetype_candidate": {"type": "string"},
+        "reason_short": {"type": "string"},
+        "needs_manual_review": {"type": "boolean"},
+        "suggested_include_in_final_corpus": {
+            "type": "string",
+            "enum": ["yes", "no", "maybe"]
+        }
+    },
+    "required": [
+        "appid",
+        "name",
+        "has_clear_main_protagonist",
+        "protagonist_name",
+        "protagonist_type",
+        "protagonist_confidence_0_3",
+        "archetype_suitability_0_3",
+        "primary_archetype_candidate",
+        "secondary_archetype_candidate",
+        "reason_short",
+        "needs_manual_review",
+        "suggested_include_in_final_corpus"
+    ]
+}
+
+def make_user_prompt(row: pd.Series) -> str:
+    return f"""Game metadata:
+
+appid: {int(row['appid'])}
+title: {safe_str(row.get('name'))}
+Steam reactions positive+negative: {safe_str(row.get('total_ratings_pos_neg'))}
+positive ratio: {safe_str(row.get('positive_ratio'))}
+owners estimate: {safe_str(row.get('steamspy_owners'))}
+available tags/genres: {safe_str(row.get('available_terms_for_later_inspection'))}
+
+Control seed protagonist, if any: {safe_str(row.get('control_protagonist'))}
+
+Return only the structured JSON requested by the schema.
+"""

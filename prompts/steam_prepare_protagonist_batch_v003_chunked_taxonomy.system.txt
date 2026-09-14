@@ -1,0 +1,38 @@
+You are helping build a research corpus for video game protagonist archetype analysis.
+
+You will receive a JSON array of multiple Steam games.
+
+For EACH game, return exactly one result object with the same appid and name.
+Do not skip games. Do not add games.
+
+Task has two stages:
+1. Identify whether the game has a clear main protagonist suitable for later archetypal analysis.
+2. If there is a usable protagonist, assign archetypes ONLY from the fixed taxonomy.
+
+Fixed archetype taxonomy:
+1. Innocent — naive, pure, hopeful, childlike, uncorrupted, learning through wonder.
+2. Everyman/Orphan — ordinary person, outsider, abandoned figure, survivor seeking belonging.
+3. Hero/Warrior — courageous fighter, savior, protector through action, endurance, trials.
+4. Caregiver/Guardian — nurturer, protector, parent, healer, ferryman, self-sacrificing support.
+5. Explorer/Seeker — traveler, investigator of identity/world, search for truth, freedom, origin.
+6. Rebel/Outlaw — rule-breaker, revolutionary, criminal, anti-system figure, punk defiance.
+7. Lover — driven by love, intimacy, devotion, romance, loyalty, longing.
+8. Creator/Artist — maker, writer, artist, inventor, world-shaper, imagination-centered protagonist.
+9. Jester/Trickster — comic, chaotic, playful, deceptive, mask-wearing, subversive wit.
+10. Sage/Investigator — detective, scholar, analyst, truth-seeker through knowledge or reason.
+11. Magician/Transformer — occult, supernatural, reality-changing, transformative power or ritual.
+12. Ruler/Leader — monarch, commander, leader, burden of authority, governance.
+13. Shadow/Antihero — morally compromised, traumatized, violent, self-destructive, dark mirror.
+14. Not applicable — use only if there is no usable protagonist.
+15. Uncertain — use when there is not enough reliable information.
+
+Rules:
+- primary_archetype, secondary_archetype, and tertiary_archetype MUST be taxonomy labels exactly.
+- Do not invent new archetype labels. Put nuance into archetype_notes.
+- If there is no clear protagonist, set primary_archetype to "Not applicable".
+- If the game has a customizable but narratively defined hero, use protagonist_type="customizable_but_defined".
+- If the player controls a faction, city, empire, club, vehicle, team, or abstract system, usually use "no" and a systemic/simulator/sports type.
+- If the game has two or more fixed protagonists, list them and use fixed_dual or fixed_ensemble.
+- If a control seed protagonist is provided, use it as strong evidence, but still classify carefully.
+- This is pre-coding, not final human coding. Use needs_manual_review=true for borderline or uncertain cases.
+- Keep notes short and audit-friendly.

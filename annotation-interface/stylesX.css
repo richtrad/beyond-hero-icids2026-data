@@ -1,0 +1,510 @@
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,.08);
+}
+
+:root {
+  --bg: #f6f4ef;
+  --ink: #1f2328;
+  --muted: #6b7280;
+  --shadow: 0 8px 22px rgba(0,0,0,.14);
+
+  --wheel-size: min(84vw, 335px, 56vh);
+  --outer-radius: min(36vw, 150px, 25vh);
+  --motive-radius: min(24vw, 98px, 16.7vh);
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+body {
+  overflow: hidden;
+}
+
+.app {
+  width: 100%;
+  min-height: 100svh;
+  height: 100dvh;
+  padding: calc(env(safe-area-inset-top) + 4px) 10px calc(env(safe-area-inset-bottom) + 6px);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  justify-content: flex-start;
+  background: var(--bg);
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  flex: 0 0 auto;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 1;
+  margin: 0 0 4px;
+  font-weight: 950;
+  letter-spacing: -.03em;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.12;
+  margin: 0;
+  max-width: 245px;
+}
+
+.progress {
+  flex: 0 0 auto;
+  background: #1f2328;
+  color: #fff;
+  border-radius: 999px;
+  padding: 8px 15px;
+  font-weight: 950;
+  font-size: 20px;
+  box-shadow: var(--shadow);
+}
+
+/* Stage has extra top margin because the four quadrant labels now sit above the wheel. */
+.stage {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+  margin: 30px 0 2px;
+}
+
+.wheel {
+  position: relative;
+  width: var(--wheel-size);
+  height: var(--wheel-size);
+  border-radius: 50%;
+  isolation: isolate;
+  overflow: visible;
+  background:
+    radial-gradient(circle, transparent 0 20%, #e7e7e7 20% 47%, rgba(255,255,255,.58) 47% 70%, transparent 70%),
+    conic-gradient(from -105deg,
+      #9bb83d 0deg 30deg,
+      #d4c80a 30deg 60deg,
+      #d79a16 60deg 90deg,
+      #cf7623 90deg 120deg,
+      #c84d53 120deg 150deg,
+      #bf2d75 150deg 180deg,
+      #934091 180deg 210deg,
+      #315fa4 210deg 240deg,
+      #1681b3 240deg 270deg,
+      #0797b5 270deg 300deg,
+      #198f88 300deg 330deg,
+      #0aa66f 330deg 360deg);
+  box-shadow: 0 10px 25px rgba(0,0,0,.07);
+}
+
+.center-card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  background: rgba(255,255,255,.98);
+  box-shadow: 0 14px 30px rgba(0,0,0,.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 9px;
+  z-index: 3;
+}
+
+.label {
+  font-size: 10px;
+  letter-spacing: .17em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 950;
+}
+
+.name {
+  font-weight: 950;
+  font-size: 18px;
+  line-height: 1.0;
+  margin: 6px 0 5px;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.game {
+  font-weight: 850;
+  font-size: 11.5px;
+  line-height: 1.05;
+  color: #374151;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.arch {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 74px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 13px;
+  color: #fff;
+  font-weight: 950;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  box-shadow: 0 6px 13px rgba(0,0,0,.14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4px;
+  z-index: 5;
+  user-select: none;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.arch:disabled {
+  cursor: default;
+}
+
+.arch.selected {
+  outline: 4px solid #111;
+  color: #111;
+  background: #fff !important;
+}
+
+.arch.blocked {
+  opacity: .58;
+}
+
+.rank {
+  display: none;
+  position: absolute;
+  right: -9px;
+  top: -9px;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: #111827;
+  color: #fff;
+  border: 2px solid #fff;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 1;
+  box-shadow: 0 4px 10px rgba(0,0,0,.2);
+}
+
+.arch.selected .rank {
+  display: flex;
+}
+
+.arch-name {
+  pointer-events: none;
+}
+
+.a0  { transform: translate(-50%,-50%) rotate(240deg) translate(var(--outer-radius)) rotate(-240deg); background: #9bb83d; }
+.a1  { transform: translate(-50%,-50%) rotate(270deg) translate(var(--outer-radius)) rotate(-270deg); background: #d4c80a; }
+.a2  { transform: translate(-50%,-50%) rotate(300deg) translate(var(--outer-radius)) rotate(-300deg); background: #d79a16; }
+.a3  { transform: translate(-50%,-50%) rotate(330deg) translate(var(--outer-radius)) rotate(-330deg); background: #cf7623; }
+.a4  { transform: translate(-50%,-50%) rotate(0deg) translate(var(--outer-radius)) rotate(0deg); background: #c84d53; }
+.a5  { transform: translate(-50%,-50%) rotate(30deg) translate(var(--outer-radius)) rotate(-30deg); background: #bf2d75; }
+.a6  { transform: translate(-50%,-50%) rotate(60deg) translate(var(--outer-radius)) rotate(-60deg); background: #934091; }
+.a7  { transform: translate(-50%,-50%) rotate(90deg) translate(var(--outer-radius)) rotate(-90deg); background: #315fa4; }
+.a8  { transform: translate(-50%,-50%) rotate(120deg) translate(var(--outer-radius)) rotate(-120deg); background: #1681b3; }
+.a9  { transform: translate(-50%,-50%) rotate(150deg) translate(var(--outer-radius)) rotate(-150deg); background: #0797b5; }
+.a10 { transform: translate(-50%,-50%) rotate(180deg) translate(var(--outer-radius)) rotate(-180deg); background: #198f88; }
+.a11 { transform: translate(-50%,-50%) rotate(210deg) translate(var(--outer-radius)) rotate(-210deg); background: #0aa66f; }
+
+.motive {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 62px;
+  height: 20px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 7.2px;
+  line-height: 1.0;
+  font-weight: 950;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+  z-index: 4;
+  pointer-events: none;
+  opacity: .92;
+}
+
+.m0  { transform: translate(-50%,-50%) rotate(240deg) translate(var(--motive-radius)) rotate(-240deg); color: #7e9f26; }
+.m1  { transform: translate(-50%,-50%) rotate(270deg) translate(var(--motive-radius)) rotate(-270deg); color: #b9ad00; }
+.m2  { transform: translate(-50%,-50%) rotate(300deg) translate(var(--motive-radius)) rotate(-300deg); color: #c4870f; }
+.m3  { transform: translate(-50%,-50%) rotate(330deg) translate(var(--motive-radius)) rotate(-330deg); color: #ba651b; }
+.m4  { transform: translate(-50%,-50%) rotate(0deg) translate(var(--motive-radius)) rotate(0deg); color: #b64046; }
+.m5  { transform: translate(-50%,-50%) rotate(30deg) translate(var(--motive-radius)) rotate(-30deg); color: #a92565; }
+.m6  { transform: translate(-50%,-50%) rotate(60deg) translate(var(--motive-radius)) rotate(-60deg); color: #80357d; }
+.m7  { transform: translate(-50%,-50%) rotate(90deg) translate(var(--motive-radius)) rotate(-90deg); color: #284f89; }
+.m8  { transform: translate(-50%,-50%) rotate(120deg) translate(var(--motive-radius)) rotate(-120deg); color: #146f99; }
+.m9  { transform: translate(-50%,-50%) rotate(150deg) translate(var(--motive-radius)) rotate(-150deg); color: #058199; }
+.m10 { transform: translate(-50%,-50%) rotate(180deg) translate(var(--motive-radius)) rotate(-180deg); color: #157a74; }
+.m11 { transform: translate(-50%,-50%) rotate(210deg) translate(var(--motive-radius)) rotate(-210deg); color: #078b5d; }
+
+/* Four quadrant labels moved above the wheel. No HTML change needed. */
+.quad {
+  position: absolute;
+  top: -34px;
+  width: 24%;
+  height: 24px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 8px;
+  line-height: 1.0;
+  font-weight: 950;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  color: #374151;
+  z-index: 20;
+  pointer-events: none;
+  text-shadow: none;
+  background: rgba(255,255,255,.84);
+  border: 1px solid rgba(31,35,40,.08);
+  border-radius: 999px;
+  padding: 3px 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,.08);
+  overflow: hidden;
+}
+
+.q0 { left: 0%;  margin-left: 0; margin-top: 0; transform: none; }
+.q1 { left: 25%; margin-left: 0; margin-top: 0; transform: none; }
+.q2 { left: 50%; margin-left: 0; margin-top: 0; transform: none; }
+.q3 { left: 75%; margin-left: 0; margin-top: 0; transform: none; }
+
+.selection-note {
+  text-align: center;
+  color: var(--muted);
+  margin: 1px 0 0;
+  font-size: 12px;
+  line-height: 1.1;
+  flex: 0 0 auto;
+  min-height: 14px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 2px 0 0;
+  flex: 0 0 auto;
+}
+
+.btn {
+  border: 0;
+  border-radius: 999px;
+  padding: 11px 16px;
+  font-weight: 950;
+  font-size: 15px;
+  box-shadow: var(--shadow);
+  display: inline-block;
+  white-space: nowrap;
+  touch-action: manipulation;
+}
+
+.secondary {
+  background: #fff;
+  color: #111827;
+}
+
+.primary {
+  background: #111827;
+  color: white;
+}
+
+.primary:disabled {
+  background: #9ca3af;
+  color: #fff;
+  box-shadow: none;
+}
+
+.footer {
+  min-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex: 0 0 auto;
+  color: #6b7280;
+  font-size: 11px;
+}
+
+.linkbtn {
+  border: 0;
+  background: transparent;
+  color: #6b7280;
+  text-decoration: underline;
+  font: inherit;
+  padding: 0;
+}
+
+.status {
+  max-width: 220px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* Optional details rows, if index/app.js already uses them. Safe to keep even if unused. */
+.character-role,
+.role,
+.details {
+  margin-top: 4px;
+  font-size: 10.5px;
+  line-height: 1.08;
+  color: #4b5563;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+@media (max-height: 720px) {
+  h1 { font-size: 20px; }
+  .subtitle { font-size: 12px; }
+  .progress { font-size: 18px; padding: 7px 13px; }
+
+  :root {
+    --wheel-size: min(82vw, 315px, 52vh);
+    --outer-radius: min(35vw, 142px, 23vh);
+    --motive-radius: min(23vw, 91px, 15vh);
+  }
+
+  .stage { margin-top: 28px; }
+
+  .arch {
+    width: 70px;
+    height: 38px;
+    font-size: 8.5px;
+  }
+
+  .name { font-size: 17px; }
+  .game { font-size: 10.5px; }
+  .selection-note { font-size: 11px; }
+  .btn { font-size: 14px; padding: 10px 13px; }
+  .motive { font-size: 7.5px; width: 64px; }
+
+  .quad {
+    top: -30px;
+    height: 22px;
+    font-size: 7.2px;
+    padding: 3px 4px;
+  }
+}
+
+@media (max-height: 640px) {
+  .character-role,
+  .role,
+  .details {
+    display: none;
+  }
+
+  .stage { margin-top: 24px; }
+
+  .quad {
+    top: -27px;
+    height: 20px;
+    font-size: 6.8px;
+  }
+}
+
+@media (min-width: 760px) {
+  body { overflow: auto; }
+
+  .app {
+    max-width: 760px;
+    margin: 0 auto;
+    min-height: 100vh;
+    height: auto;
+    padding: 24px 24px 30px;
+    gap: 14px;
+  }
+
+  h1 { font-size: 34px; }
+  .subtitle { font-size: 18px; max-width: none; }
+  .progress { font-size: 26px; padding: 10px 22px; }
+
+  :root {
+    --wheel-size: 590px;
+    --outer-radius: 260px;
+    --motive-radius: 172px;
+  }
+
+  .stage { margin-top: 52px; }
+
+  .arch {
+    width: 126px;
+    height: 58px;
+    border-radius: 18px;
+    font-size: 15px;
+  }
+
+  .rank {
+    width: 28px;
+    height: 28px;
+    font-size: 15px;
+    right: -11px;
+    top: -11px;
+  }
+
+  .label { font-size: 14px; }
+  .name { font-size: 32px; }
+  .game { font-size: 20px; }
+  .motive { width: 108px; font-size: 12px; }
+
+  .quad {
+    top: -52px;
+    width: 24%;
+    height: 36px;
+    font-size: 13px;
+    padding: 6px 10px;
+    border-radius: 999px;
+  }
+
+  .q0 { left: 0%; margin-left: 0; margin-top: 0; transform: none; }
+  .q1 { left: 25.33%; margin-left: 0; margin-top: 0; transform: none; }
+  .q2 { left: 50.66%; margin-left: 0; margin-top: 0; transform: none; }
+  .q3 { left: 76%; margin-left: 0; margin-top: 0; transform: none; }
+
+  .selection-note {
+    font-size: 18px;
+    min-height: 26px;
+  }
+
+  .btn {
+    font-size: 20px;
+    padding: 15px 28px;
+  }
+
+  .character-role,
+  .role,
+  .details {
+    font-size: 14px;
+    line-height: 1.15;
+  }
+}

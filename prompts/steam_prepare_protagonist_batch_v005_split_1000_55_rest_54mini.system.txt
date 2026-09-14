@@ -1,0 +1,60 @@
+You are building a research corpus for video game protagonist archetype analysis.
+
+You will receive a JSON array of Steam games. Classify EACH game. Return exactly one item per input game, with the same appid in field "a". Do not skip games. Do not add games.
+
+Use compact output codes exactly as defined.
+
+Clear protagonist field h:
+- y = clear usable main protagonist
+- n = no clear usable main protagonist
+- u = uncertain
+
+Protagonist type pt:
+- fns fixed named single protagonist
+- frs fixed role single protagonist
+- sfx silent fixed protagonist
+- nfx nonhuman fixed protagonist
+- cbd customizable but narratively defined protagonist
+- fdu fixed dual protagonists
+- fen fixed ensemble
+- pav weakly defined player avatar
+- sys strategy/systemic role: faction, empire, city, abstract commander
+- sim simulator/management role
+- spr sports/racing role
+- nop no clear protagonist
+- unc uncertain
+
+Archetype codes p/s/t for primary/secondary/tertiary:
+- INN Innocent: naive, pure, hopeful, childlike, uncorrupted, wonder
+- EVE Everyman/Orphan: ordinary person, outsider, abandoned, survivor seeking belonging
+- HER Hero/Warrior: courageous fighter, savior, protector through action/trials
+- CAR Caregiver/Guardian: nurturer, parent, healer, protector, self-sacrifice
+- EXP Explorer/Seeker: traveler, identity/world search, truth, freedom, origin
+- REB Rebel/Outlaw: rule-breaker, revolutionary, criminal, anti-system defiance
+- LOV Lover: love, intimacy, devotion, romance, loyalty, longing
+- CRE Creator/Artist: maker, artist, inventor, writer, world-shaper
+- JES Jester/Trickster: comic, chaotic, playful, deceptive, subversive wit
+- SAG Sage/Investigator: detective, scholar, analyst, truth through reason/knowledge
+- MAG Magician/Transformer: occult, supernatural, reality-changing, transformation
+- RUL Ruler/Leader: monarch, commander, leader, burden of authority/governance
+- SHA Shadow/Antihero: morally compromised, traumatized, violent, dark mirror
+- NA Not applicable: no usable protagonist
+- UNC Uncertain: insufficient reliable information
+
+Other fields:
+- pc/ac/su/sh/pp/nc are integers 0..3:
+  pc protagonist confidence, ac archetype confidence, su suitability for final corpus,
+  sh shadow/antihero load, pp player projection, nc narrative complexity.
+- inc: y/n/m for include in final corpus yes/no/maybe.
+- ex: none/nop/sys/sim/spr/multi/unk/info/other.
+- mr: true if manual review is needed.
+- eb: g general knowledge, c control seed, m metadata inference, u uncertain.
+- note: very short audit note, max about 12 words.
+
+Rules:
+- p, s, and t MUST be archetype codes, not invented labels.
+- If h is n, set p=NA, s=NA, t=NA, inc=n unless there is a special reason.
+- If h is u, use p=UNC unless a safe archetype is obvious.
+- If the player controls a faction/city/club/team/vehicle/system, usually h=n and pt=sys/sim/spr.
+- If control seed protagonist cp is present, use it as strong evidence but still classify carefully.
+- Keep output compact and deterministic.

@@ -1,0 +1,198 @@
+[
+  {
+    "source_name": "steam_prepare_protagonist_batch_v001.py",
+    "path": "archive/code/steam_prepare_protagonist_batch_v001.py",
+    "source_sha256": "74e80f737a5f5ec7a890f3add906370380b4efb0448e44f1fd48ac63f9301a47",
+    "archived_sha256": "74e80f737a5f5ec7a890f3add906370380b4efb0448e44f1fd48ac63f9301a47",
+    "transformation": "byte-preserved"
+  },
+  {
+    "source_name": "steam_prepare_protagonist_batch_v002_taxonomy.py",
+    "path": "archive/code/steam_prepare_protagonist_batch_v002_taxonomy.py",
+    "source_sha256": "fef74ba7517caddb864e80249320a36e6d678be9bb4e0dfc1013b1c4ecffca38",
+    "archived_sha256": "fef74ba7517caddb864e80249320a36e6d678be9bb4e0dfc1013b1c4ecffca38",
+    "transformation": "byte-preserved"
+  },
+  {
+    "source_name": "steam_prepare_protagonist_batch_v003_chunked_taxonomy.py",
+    "path": "archive/code/steam_prepare_protagonist_batch_v003_chunked_taxonomy.py",
+    "source_sha256": "9bd261807b89ba00e5ba27984262b6f1d04d6c84e3a6c33baa71f176fbc94938",
+    "archived_sha256": "9bd261807b89ba00e5ba27984262b6f1d04d6c84e3a6c33baa71f176fbc94938",
+    "transformation": "byte-preserved"
+  },
+  {
+    "source_name": "steam_prepare_protagonist_batch_v004_50k_5_5_economy.py",
+    "path": "archive/code/steam_prepare_protagonist_batch_v004_50k_5_5_economy.py",
+    "source_sha256": "43a59c100e465005988218edcdf0c3cb244d54617b532b5fdfca70b8ffbb443c",
+    "archived_sha256": "43a59c100e465005988218edcdf0c3cb244d54617b532b5fdfca70b8ffbb443c",
+    "transformation": "byte-preserved"
+  },
+  {
+    "source_name": "steam_prepare_protagonist_batch_v005_split_1000_55_rest_54mini.py",
+    "path": "archive/code/steam_prepare_protagonist_batch_v005_split_1000_55_rest_54mini.py",
+    "source_sha256": "d179062da6316d1a46506b8c9019c17325bcd81f77c237580782f86ff943924a",
+    "archived_sha256": "d179062da6316d1a46506b8c9019c17325bcd81f77c237580782f86ff943924a",
+    "transformation": "byte-preserved"
+  },
+  {
+    "source_name": "steam_prepare_rest_parts_v006_54mini.py",
+    "path": "archive/code/steam_prepare_rest_parts_v006_54mini.py",
+    "source_sha256": "0b216c2916e4bd11ded689d37b7b2ae6ade2437dde8016b15582cea809f04f63",
+    "archived_sha256": "0b216c2916e4bd11ded689d37b7b2ae6ade2437dde8016b15582cea809f04f63",
+    "transformation": "byte-preserved"
+  },
+  {
+    "source_name": "steam_make_final_archetype_datasets_12_v001.py",
+    "path": "archive/code/steam_make_final_archetype_datasets_12_v001.py",
+    "source_sha256": "f34c47d9aca734504ee9674413be755b45cfb856236ab6817cd967bb9a88215b",
+    "archived_sha256": "f34c47d9aca734504ee9674413be755b45cfb856236ab6817cd967bb9a88215b",
+    "transformation": "byte-preserved"
+  },
+  {
+    "source_name": "annotation_agent_spec_v001.md",
+    "path": "archive/igdb/annotation_agent_spec_v001.md",
+    "source_sha256": "2ec98c3a1b5cf65291b65f65d180aceada85a022a4c84897127218473dc6bd58",
+    "archived_sha256": "2ec98c3a1b5cf65291b65f65d180aceada85a022a4c84897127218473dc6bd58",
+    "transformation": "byte-preserved"
+  },
+  {
+    "source_name": "run_annotation_fast_v003.py",
+    "path": "archive/igdb/run_annotation_fast_v003.py",
+    "source_sha256": "b677099ac3f6e4506a8d870e9dd989448437016bb8554d27d4777e830bba67d4",
+    "archived_sha256": "b677099ac3f6e4506a8d870e9dd989448437016bb8554d27d4777e830bba67d4",
+    "transformation": "byte-preserved"
+  },
+  {
+    "source_name": "igdb_metadata_agent_annotation_summary_v001.json",
+    "path": "archive/igdb/igdb_metadata_agent_annotation_summary_v001.json",
+    "source_sha256": "5ccffbdfb8bf19a27d3f96d261d07c6398e39ab79aba700d85059699df8dd2d8",
+    "archived_sha256": "5ccffbdfb8bf19a27d3f96d261d07c6398e39ab79aba700d85059699df8dd2d8",
+    "transformation": "byte-preserved"
+  },
+  {
+    "source_name": "steam_v005_top1000_55_input.jsonl",
+    "path": "archive/batch/steam_v005_top1000_55_input.jsonl",
+    "source_sha256": "c36ee64ea6e219f285e420a2f600de8931618224e0e87a498859821c0aedff43",
+    "archived_sha256": "c36ee64ea6e219f285e420a2f600de8931618224e0e87a498859821c0aedff43",
+    "transformation": "byte-preserved"
+  },
+  {
+    "source_name": "steam_v005_top1000_55_output.jsonl",
+    "path": "archive/batch/steam_v005_top1000_55_output.jsonl",
+    "source_sha256": "d6a7bf8b03161f4530e3c8006b1a61963c68cbacd85e71583c9e45f13fe8456d",
+    "archived_sha256": "d6a7bf8b03161f4530e3c8006b1a61963c68cbacd85e71583c9e45f13fe8456d",
+    "transformation": "byte-preserved"
+  },
+  {
+    "source_name": "README_final_datasets_12_v001.md",
+    "path": "archive/steam/README_final_datasets_12_v001.md",
+    "source_sha256": "4bfffe7572fad5f7c3558f95c637f9bb258972458d2d7bf0f4336afc466c97f2",
+    "archived_sha256": "4bfffe7572fad5f7c3558f95c637f9bb258972458d2d7bf0f4336afc466c97f2",
+    "transformation": "byte-preserved"
+  },
+  {
+    "source_name": "steam_dataset_summary_12_v001.json",
+    "path": "archive/steam/steam_dataset_summary_12_v001.json",
+    "source_sha256": "5de1bf5be2629d15253960419c1949d3d73c507f50ab50156dc762430b6b3f91",
+    "archived_sha256": "5de1bf5be2629d15253960419c1949d3d73c507f50ab50156dc762430b6b3f91",
+    "transformation": "byte-preserved"
+  },
+  {
+    "source_name": "app.js",
+    "path": "annotation-interface/app.js",
+    "source_sha256": "7664dcec7ac0d144ff9248414994af0b51645daff8d2e38d7806f7ad69dfa212",
+    "archived_sha256": "526b0d09395ea00152e9c4ee8e416c45aa12cc327dbb6bfd9353c5db45653232",
+    "transformation": "UTF-8 copy; local-storage keys isolated where present; HTML demo notice and same-origin CSP added"
+  },
+  {
+    "source_name": "app_cleaned.js",
+    "path": "annotation-interface/app_cleaned.js",
+    "source_sha256": "bc1bd6a33dabfa3cc2b5d79a977d362082b9a0d16c019f87e601b3e5c665ba90",
+    "archived_sha256": "6ea7a0ca6b505750b387aecbb96579ad0c6636b4198a48aaaa9460e102f4a1d0",
+    "transformation": "UTF-8 copy; local-storage keys isolated where present; HTML demo notice and same-origin CSP added"
+  },
+  {
+    "source_name": "archetype_side_panels.js",
+    "path": "annotation-interface/archetype_side_panels.js",
+    "source_sha256": "af661b308a71b86841ac4f7e15e4c9b8c9ddc47356c6961b12c39fbcb5ca0133",
+    "archived_sha256": "af661b308a71b86841ac4f7e15e4c9b8c9ddc47356c6961b12c39fbcb5ca0133",
+    "transformation": "UTF-8 copy; local-storage keys isolated where present; HTML demo notice and same-origin CSP added"
+  },
+  {
+    "source_name": "archetypes.json",
+    "path": "annotation-interface/archetypes.json",
+    "source_sha256": "37cf7e4e5792e8a209c04bc6743c46f2e4ef39be4d41a2943884c79c5221248e",
+    "archived_sha256": "37cf7e4e5792e8a209c04bc6743c46f2e4ef39be4d41a2943884c79c5221248e",
+    "transformation": "UTF-8 copy; local-storage keys isolated where present; HTML demo notice and same-origin CSP added"
+  },
+  {
+    "source_name": "back_button_patch.js",
+    "path": "annotation-interface/back_button_patch.js",
+    "source_sha256": "db4717bffc84e9198528640236b0c70d38af91824e307dc9ad613aa61f306457",
+    "archived_sha256": "e0c7eb0023e56bc3ea4d04ce5c2abe54d9964d66ead99af9792c73a191adffbb",
+    "transformation": "UTF-8 copy; local-storage keys isolated where present; HTML demo notice and same-origin CSP added"
+  },
+  {
+    "source_name": "bottom_character_nav.js",
+    "path": "annotation-interface/bottom_character_nav.js",
+    "source_sha256": "436f1804b5d45b90c8a12d5352dae9f6357665b1276e7c5852d95974275d9429",
+    "archived_sha256": "068acb721f29cb370cc7fb05c6e78b91607bf10bd7370a080ef39d979b42513a",
+    "transformation": "UTF-8 copy; local-storage keys isolated where present; HTML demo notice and same-origin CSP added"
+  },
+  {
+    "source_name": "bottom_character_nav_cleaned.js",
+    "path": "annotation-interface/bottom_character_nav_cleaned.js",
+    "source_sha256": "0a3672370198424dbe2a414c4444bd8b42643cd96482279a2dba4d8819adb9f3",
+    "archived_sha256": "7f29eff4f73862c03835eb9bf546815cad417f9975c4dc6c555d825751f93596",
+    "transformation": "UTF-8 copy; local-storage keys isolated where present; HTML demo notice and same-origin CSP added"
+  },
+  {
+    "source_name": "character_order_cleanup.js",
+    "path": "annotation-interface/character_order_cleanup.js",
+    "source_sha256": "cdf742a6b7e70c1398efb0f409d45259f0408dc494e86528f8cb42bb1fcd22fb",
+    "archived_sha256": "cdf742a6b7e70c1398efb0f409d45259f0408dc494e86528f8cb42bb1fcd22fb",
+    "transformation": "UTF-8 copy; local-storage keys isolated where present; HTML demo notice and same-origin CSP added"
+  },
+  {
+    "source_name": "characters.json",
+    "path": "annotation-interface/characters.json",
+    "source_sha256": "18dbcf56955eb27e8e7d711b4ccf913c883df1239668122b55fae75f7d02291c",
+    "archived_sha256": "18dbcf56955eb27e8e7d711b4ccf913c883df1239668122b55fae75f7d02291c",
+    "transformation": "UTF-8 copy; local-storage keys isolated where present; HTML demo notice and same-origin CSP added"
+  },
+  {
+    "source_name": "charactersO.json",
+    "path": "annotation-interface/charactersO.json",
+    "source_sha256": "39a5b7a1ae50e584b77e1b4050934b17174c54a6dd581285b6329ff5ecb3f6d0",
+    "archived_sha256": "39a5b7a1ae50e584b77e1b4050934b17174c54a6dd581285b6329ff5ecb3f6d0",
+    "transformation": "UTF-8 copy; local-storage keys isolated where present; HTML demo notice and same-origin CSP added"
+  },
+  {
+    "source_name": "index.html",
+    "path": "annotation-interface/index.html",
+    "source_sha256": "4be7cde4c5418a1686f2a9636d4fc4d7cca541b0d2063b7503fd194b34a12090",
+    "archived_sha256": "bf477f2a0ac99b6f3f48feb0eb047f31854f3fba756a9833da266e22c68714f8",
+    "transformation": "UTF-8 copy; local-storage keys isolated where present; HTML demo notice and same-origin CSP added"
+  },
+  {
+    "source_name": "styles.css",
+    "path": "annotation-interface/styles.css",
+    "source_sha256": "77610c2fb8f6b316aa8d1b81410bf931a898c3d57eb3a987d7be1d3f4502ac46",
+    "archived_sha256": "77610c2fb8f6b316aa8d1b81410bf931a898c3d57eb3a987d7be1d3f4502ac46",
+    "transformation": "UTF-8 copy; local-storage keys isolated where present; HTML demo notice and same-origin CSP added"
+  },
+  {
+    "source_name": "stylesX.css",
+    "path": "annotation-interface/stylesX.css",
+    "source_sha256": "cba3a08564f549685a386f2db6bab974c6a2e22c875e779f661cec7357862dd6",
+    "archived_sha256": "cba3a08564f549685a386f2db6bab974c6a2e22c875e779f661cec7357862dd6",
+    "transformation": "UTF-8 copy; local-storage keys isolated where present; HTML demo notice and same-origin CSP added"
+  },
+  {
+    "source_name": "ui_patch_show_game.js",
+    "path": "annotation-interface/ui_patch_show_game.js",
+    "source_sha256": "2a30642e7517ade36573bda4d4c960ebb14177abfb05752836ee36e7f709cfa0",
+    "archived_sha256": "2a30642e7517ade36573bda4d4c960ebb14177abfb05752836ee36e7f709cfa0",
+    "transformation": "UTF-8 copy; local-storage keys isolated where present; HTML demo notice and same-origin CSP added"
+  }
+]

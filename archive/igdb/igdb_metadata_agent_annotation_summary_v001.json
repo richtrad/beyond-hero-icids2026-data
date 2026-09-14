@@ -1,0 +1,220 @@
+{
+  "agent_model": "metadata_agent_v001_gpt55_schema_compatible_fast_extract_v003",
+  "preservation_rule": "Existing primary_archetype_12 values were not overwritten; only blank primary_archetype_12 rows were filled.",
+  "master_rows_updated_from_delta": 147088,
+  "master_existing_primary_annotations_preserved": 44180,
+  "files": {
+    "annotation_agent_spec_v001.md": {
+      "path": "/mnt/data/annotation_agent_spec_v001.md",
+      "bytes": 4348
+    },
+    "annotate_igdb_archetypes_agent_v001.py": {
+      "path": "/mnt/data/annotate_igdb_archetypes_agent_v001.py",
+      "bytes": 36487
+    },
+    "run_annotation_fast_v003.py": {
+      "path": "/mnt/data/run_annotation_fast_v003.py",
+      "bytes": 7105
+    },
+    "igdb_needs_llm_annotation_filled_metadata_agent_v001.csv": {
+      "path": "/mnt/data/igdb_needs_llm_annotation_filled_metadata_agent_v001.csv",
+      "bytes": 218290159
+    },
+    "igdb_new_metadata_agent_annotations_delta_v001.csv": {
+      "path": "/mnt/data/igdb_new_metadata_agent_annotations_delta_v001.csv",
+      "bytes": 192080432
+    },
+    "igdb_master_broad_with_metadata_agent_annotations_v001.csv": {
+      "path": "/mnt/data/igdb_master_broad_with_metadata_agent_annotations_v001.csv",
+      "bytes": 272240579
+    },
+    "igdb_metadata_agent_top200_audit_sample_v001.csv": {
+      "path": "/mnt/data/igdb_metadata_agent_top200_audit_sample_v001.csv",
+      "bytes": 321442
+    },
+    "igdb_needs_llm_annotation_filled_metadata_agent_v001.csv.gz": {
+      "path": "/mnt/data/igdb_needs_llm_annotation_filled_metadata_agent_v001.csv.gz",
+      "bytes": 41149455
+    },
+    "igdb_new_metadata_agent_annotations_delta_v001.csv.gz": {
+      "path": "/mnt/data/igdb_new_metadata_agent_annotations_delta_v001.csv.gz",
+      "bytes": 35536139
+    },
+    "igdb_master_broad_with_metadata_agent_annotations_v001.csv.gz": {
+      "path": "/mnt/data/igdb_master_broad_with_metadata_agent_annotations_v001.csv.gz",
+      "bytes": 53357456
+    }
+  },
+  "delta_rows": 147088,
+  "delta_blank_primary_count": 0,
+  "delta_primary_counts": {
+    "Uncertain": 51777,
+    "Explorer/Seeker": 31479,
+    "Not applicable": 31079,
+    "Hero/Warrior": 17945,
+    "Everyman/Orphan": 5600,
+    "Lover": 2524,
+    "Sage/Investigator": 2152,
+    "Magician/Transformer": 1466,
+    "Ruler/Leader": 911,
+    "Creator/Artist": 793,
+    "Caregiver/Guardian": 444,
+    "Jester/Trickster": 346,
+    "Rebel/Outlaw": 335,
+    "Innocent": 237
+  },
+  "delta_protagonist_type_counts": {
+    "player_avatar_weakly_defined": 58438,
+    "uncertain": 51068,
+    "sports_or_racing_role": 10711,
+    "strategy_or_systemic_role": 8359,
+    "simulator_or_management_role": 7217,
+    "no_clear_protagonist": 4792,
+    "fixed_named_single": 4646,
+    "fixed_role_single": 935,
+    "nonhuman_fixed_protagonist": 312,
+    "fixed_dual": 289,
+    "customizable_but_defined": 219,
+    "fixed_ensemble": 102
+  },
+  "delta_manual_review_counts": {
+    "True": 109326,
+    "False": 37762
+  },
+  "delta_evidence_counts": {
+    "metadata_inference": 95184,
+    "uncertain": 51068,
+    "general_knowledge": 836
+  },
+  "delta_clear_protagonist_counts": {
+    "False": 82856,
+    "True": 64232
+  },
+  "delta_corpus_label_counts": {
+    "core_maybe": 109326,
+    "other": 31079,
+    "review_pool": 6683
+  },
+  "needs_filled_rows": 163469,
+  "needs_filled_blank_primary_count": 0,
+  "needs_filled_primary_counts": {
+    "Uncertain": 59563,
+    "Not applicable": 39674,
+    "Explorer/Seeker": 31479,
+    "Hero/Warrior": 17945,
+    "Everyman/Orphan": 5600,
+    "Lover": 2524,
+    "Sage/Investigator": 2152,
+    "Magician/Transformer": 1466,
+    "Ruler/Leader": 911,
+    "Creator/Artist": 793,
+    "Caregiver/Guardian": 444,
+    "Jester/Trickster": 346,
+    "Rebel/Outlaw": 335,
+    "Innocent": 237
+  },
+  "needs_filled_protagonist_type_counts": {
+    "player_avatar_weakly_defined": 58526,
+    "uncertain": 58523,
+    "sports_or_racing_role": 12328,
+    "strategy_or_systemic_role": 10604,
+    "simulator_or_management_role": 9963,
+    "no_clear_protagonist": 6886,
+    "fixed_named_single": 4713,
+    "fixed_role_single": 940,
+    "nonhuman_fixed_protagonist": 342,
+    "fixed_dual": 294,
+    "customizable_but_defined": 219,
+    "fixed_ensemble": 108,
+    "": 20,
+    "silent_fixed_protagonist": 3
+  },
+  "needs_filled_manual_review_counts": {
+    "True": 117181,
+    "False": 46268,
+    "": 20
+  },
+  "needs_filled_evidence_counts": {
+    "metadata_inference": 105267,
+    "uncertain": 53153,
+    "general_knowledge": 5029,
+    "": 20
+  },
+  "needs_filled_clear_protagonist_counts": {
+    "False": 82856,
+    "True": 64232,
+    "no": 8473,
+    "uncertain": 7652,
+    "yes": 236,
+    "": 20
+  },
+  "needs_filled_corpus_label_counts": {
+    "core_maybe": 109326,
+    "other": 32793,
+    "review_pool": 21330,
+    "missing_llm_result": 20
+  },
+  "master_filled_rows": 194354,
+  "master_filled_blank_primary_count": 3086,
+  "master_filled_primary_counts": {
+    "Uncertain": 59569,
+    "Not applicable": 39682,
+    "Explorer/Seeker": 36379,
+    "Hero/Warrior": 24272,
+    "Everyman/Orphan": 9121,
+    "Sage/Investigator": 4348,
+    "Lover": 3552,
+    "": 3086,
+    "Magician/Transformer": 2997,
+    "Ruler/Leader": 2729,
+    "Rebel/Outlaw": 2394,
+    "Creator/Artist": 2223,
+    "Jester/Trickster": 1907,
+    "Caregiver/Guardian": 1156,
+    "Innocent": 939
+  },
+  "master_filled_protagonist_type_counts": {
+    "player_avatar_weakly_defined": 60338,
+    "uncertain": 59081,
+    "fixed_named_single": 21981,
+    "sports_or_racing_role": 13394,
+    "strategy_or_systemic_role": 11968,
+    "simulator_or_management_role": 11141,
+    "no_clear_protagonist": 6924,
+    "": 3106,
+    "fixed_role_single": 1783,
+    "nonhuman_fixed_protagonist": 1487,
+    "fixed_ensemble": 988,
+    "fixed_dual": 924,
+    "silent_fixed_protagonist": 668,
+    "customizable_but_defined": 571
+  },
+  "master_filled_manual_review_counts": {
+    "True": 121432,
+    "False": 69816,
+    "": 3106
+  },
+  "master_filled_evidence_counts": {
+    "metadata_inference": 120597,
+    "uncertain": 54221,
+    "general_knowledge": 16430,
+    "": 3106
+  },
+  "master_filled_clear_protagonist_counts": {
+    "False": 82856,
+    "True": 64232,
+    "yes": 26577,
+    "no": 8803,
+    "uncertain": 8780,
+    "": 3106
+  },
+  "master_filled_corpus_label_counts": {
+    "core_maybe": 112303,
+    "other": 33028,
+    "review_pool": 23698,
+    "core_strict": 11821,
+    "core_broad": 10398,
+    "": 3086,
+    "missing_llm_result": 20
+  }
+}

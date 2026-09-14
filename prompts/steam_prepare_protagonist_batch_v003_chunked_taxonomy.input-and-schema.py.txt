@@ -1,0 +1,67 @@
+ITEM_SCHEMA = {
+    "type": "object",
+    "additionalProperties": False,
+    "properties": {
+        "appid": {"type": "integer"},
+        "name": {"type": "string"},
+        "has_clear_main_protagonist": {"type": "string", "enum": ["yes", "no", "uncertain"]},
+        "protagonist_name": {"type": "string"},
+        "protagonist_type": {"type": "string", "enum": PROTAGONIST_TYPES},
+        "protagonist_confidence_0_3": {"type": "integer", "minimum": 0, "maximum": 3},
+        "primary_archetype": {"type": "string", "enum": ARCHETYPES},
+        "secondary_archetype": {"type": "string", "enum": ARCHETYPES},
+        "tertiary_archetype": {"type": "string", "enum": ARCHETYPES},
+        "archetype_confidence_0_3": {"type": "integer", "minimum": 0, "maximum": 3},
+        "archetype_suitability_0_3": {"type": "integer", "minimum": 0, "maximum": 3},
+        "shadow_load_0_3": {"type": "integer", "minimum": 0, "maximum": 3},
+        "player_projection_0_3": {"type": "integer", "minimum": 0, "maximum": 3},
+        "narrative_complexity_0_3": {"type": "integer", "minimum": 0, "maximum": 3},
+        "suggested_include_in_final_corpus": {"type": "string", "enum": ["yes", "no", "maybe"]},
+        "exclusion_reason": {"type": "string", "enum": EXCLUSION_REASONS},
+        "needs_manual_review": {"type": "boolean"},
+        "evidence_basis": {"type": "string", "enum": ["general_knowledge", "control_seed", "metadata_inference", "uncertain"]},
+        "protagonist_notes": {"type": "string"},
+        "archetype_notes": {"type": "string"},
+        "reason_short": {"type": "string"}
+    },
+    "required": [
+        "appid", "name", "has_clear_main_protagonist", "protagonist_name",
+        "protagonist_type", "protagonist_confidence_0_3",
+        "primary_archetype", "secondary_archetype", "tertiary_archetype",
+        "archetype_confidence_0_3", "archetype_suitability_0_3",
+        "shadow_load_0_3", "player_projection_0_3", "narrative_complexity_0_3",
+        "suggested_include_in_final_corpus", "exclusion_reason", "needs_manual_review",
+        "evidence_basis", "protagonist_notes", "archetype_notes", "reason_short"
+    ]
+}
+
+BATCH_SCHEMA = {
+    "type": "object",
+    "additionalProperties": False,
+    "properties": {
+        "items": {
+            "type": "array",
+            "items": ITEM_SCHEMA
+        }
+    },
+    "required": ["items"]
+}
+
+def row_to_game(row: pd.Series) -> dict:
+    return {
+        "appid": int(row["appid"]),
+        "name": safe_str(row.get("name")),
+        "total_ratings_pos_neg": safe_str(row.get("total_ratings_pos_neg")),
+        "positive_ratio": safe_str(row.get("positive_ratio")),
+        "owners_estimate": safe_str(row.get("steamspy_owners")),
+        "available_tags_genres": safe_str(row.get("available_terms_for_later_inspection")),
+        "control_seed_protagonist": safe_str(row.get("control_protagonist")),
+    }
+
+def make_user_prompt(games: list[dict]) -> str:
+    return (
+        "Classify the following games. Return exactly one item per input game, "
+        "with the same appid and name.\n\n"
+        "Games JSON:\n"
+        + json.dumps(games, ensure_ascii=False, indent=2)
+    )

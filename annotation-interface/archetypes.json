@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Innocent",
+    "description": "seeks safety, simplicity, hope, purity, or return to an uncorrupted state"
+  },
+  {
+    "name": "Everyman",
+    "description": "ordinary person, relatable outsider, survivor, citizen, or non-exceptional figure"
+  },
+  {
+    "name": "Hero",
+    "description": "acts through courage, struggle, confrontation, sacrifice, or overcoming danger"
+  },
+  {
+    "name": "Caregiver",
+    "description": "protects, nurtures, rescues, takes responsibility for others or a community"
+  },
+  {
+    "name": "Explorer",
+    "description": "seeks freedom, discovery, movement, unknown places, or self-expansion"
+  },
+  {
+    "name": "Rebel",
+    "description": "resists authority, breaks rules, seeks revenge, disruption, liberation, or refusal"
+  },
+  {
+    "name": "Lover",
+    "description": "defined by intimacy, desire, attachment, emotional bonds, beauty, or devotion"
+  },
+  {
+    "name": "Creator",
+    "description": "builds, crafts, designs, invents, makes worlds, systems, art, or tools"
+  },
+  {
+    "name": "Jester",
+    "description": "uses play, comedy, absurdity, trickery, performance, or chaotic humor"
+  },
+  {
+    "name": "Sage",
+    "description": "seeks truth, knowledge, investigation, memory, interpretation, or understanding"
+  },
+  {
+    "name": "Magician",
+    "description": "transforms reality, self, systems, fate, magic, technology, or perception"
+  },
+  {
+    "name": "Ruler",
+    "description": "commands, governs, controls resources, leads factions, manages order or power"
+  }
+]
