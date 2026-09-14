@@ -1,4 +1,4 @@
-# Beyond the Hero
+# Beyond the Hero: 12 archetypes for 90,000+ game protagonists
 
 **If you use these data or research materials, we kindly ask you to cite the accompanying paper. Thank you for acknowledging the work behind this dataset.**
 
