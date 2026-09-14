@@ -16,6 +16,21 @@ Radek Richtr. *Beyond the Hero: A Diachronic Study of Archetypal Shifts in Playa
 
 [Download BibTeX](CITATION.bib) · [How the data and evaluation were created](docs/how-the-evaluation-was-created.md) · [All game data](docs/data-catalogue.md) · [Findings and figures](docs/results.md) · [Paper](paper/README.md)
 
+## What data will you find here?
+
+The analytical export contains **90,387 protagonist-level records**, representing **90,180 title–year combinations and 89,043 distinct game-title strings**. It covers release years 1970–2025; the main historical interpretation focuses on 1980–2024. The repository also preserves the larger source catalogues: **171,570 Steam application IDs** and **278,617 IGDB records**, together with SteamSpy metadata and intermediate datasets. The source catalogues overlap and include games outside the analytical subset.
+
+For games and playable protagonists, the available coding records identify or estimate:
+
+- **Who or what the player controls:** a named protagonist, an avatar, an ensemble, or a player role, together with protagonist type where available.
+- **Archetypal functions:** ranked primary, secondary and tertiary labels within a twelve-category framework, such as Hero, Explorer, Caregiver, Creator or Ruler.
+- **Interpretive attributes:** confidence, player projection, narrative complexity, evidence basis and flags for manual review in the richer coding tables.
+- **Historical and catalogue context:** release year, genres and other source metadata, review/rating counts, and derived visibility weights where available.
+
+The simplified analytical files contain a compact selection of these fields; the full masters preserve richer metadata, original labels and subsequent harmonizations. Field availability varies by source and processing stage. A confidence score or a manual-review flag is not itself evidence of human verification.
+
+**A subset was assessed against human annotations.** The paper reports a comparison of **1,522 retained domain-aware responses covering 834 character IDs**. Manual inspection and follow-up discussions with annotators also informed the interpretation of disagreements. This provides human assessment of selected cases, not confirmation of every label in the full corpus. The release includes the annotation interface and documented comparisons; the final participant-level export and a complete row-by-row human-verified subset are not included. See [how the evaluation was created](docs/how-the-evaluation-was-created.md#7-participant-annotation-and-filtering).
+
 ## What this study asks
 
 How have playable protagonist archetypes changed across five decades of games? A protagonist can be an authored fictional character, a silent avatar, a customizable figure, an ensemble, or an implicit role such as a ruler or creator. The study therefore distinguishes **the archetype of the character** from **the role made available to the player**.
