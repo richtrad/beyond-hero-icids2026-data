@@ -18,7 +18,7 @@ Radek Richtr. *Beyond the Hero: A Diachronic Study of Archetypal Shifts in Playa
 
 ## What data will you find here?
 
-The analytical export contains **90,387 protagonist-level records**, representing **90,180 title–year combinations and 89,043 distinct game-title strings**. It covers release years 1970–2025; the main historical interpretation focuses on 1980–2024. The repository also preserves the larger source catalogues: **171,570 Steam application IDs** and **278,617 IGDB records**, together with SteamSpy metadata and intermediate datasets. The source catalogues overlap and include games outside the analytical subset.
+The analytical export contains **90,387 protagonist-level records**, representing **90,180 title–year combinations and 89,043 distinct game-title strings**. It covers release years 1970–2025; the main historical interpretation focuses on 1980–2024. The repository also preserves the larger source catalogues: **171,570 Steam application IDs** and **278,617 IGDB records**, together with SteamSpy metadata and intermediate datasets. The source catalogues overlap and include games outside the analytical subset. For part of games and characters some studies was already published - we aggregated them and use for process validationg (see the paper).
 
 For games and playable protagonists, the available coding records identify or estimate:
 
