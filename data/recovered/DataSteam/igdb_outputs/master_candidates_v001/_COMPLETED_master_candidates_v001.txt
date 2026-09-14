@@ -1,0 +1,3 @@
+Completed at 2026-06-22T02:27:40
+Analysis max year: 2025
+Analysis broad rows: 194354

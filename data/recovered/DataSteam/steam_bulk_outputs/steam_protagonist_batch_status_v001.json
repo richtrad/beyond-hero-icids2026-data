@@ -1,0 +1,40 @@
+{
+  "id": "batch_6a370f4e4784819095a3335a181a1aa8",
+  "completion_window": "24h",
+  "created_at": 1781993294,
+  "endpoint": "/v1/responses",
+  "input_file_id": "file-G28Gbz6abeE334zjJUHBCo",
+  "object": "batch",
+  "status": "completed",
+  "cancelled_at": null,
+  "cancelling_at": null,
+  "completed_at": 1781993593,
+  "error_file_id": null,
+  "errors": null,
+  "expired_at": null,
+  "expires_at": 1782079694,
+  "failed_at": null,
+  "finalizing_at": 1781993585,
+  "in_progress_at": 1781993355,
+  "metadata": {
+    "description": "Steam protagonist identification v001"
+  },
+  "model": "gpt-5.5-2026-04-23",
+  "output_file_id": "file-GHCTLeJjexxMWapXaNWCAJ",
+  "request_counts": {
+    "completed": 50,
+    "failed": 0,
+    "total": 50
+  },
+  "usage": {
+    "input_tokens": 26193,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 11431,
+    "output_tokens_details": {
+      "reasoning_tokens": 4194
+    },
+    "total_tokens": 37624
+  }
+}

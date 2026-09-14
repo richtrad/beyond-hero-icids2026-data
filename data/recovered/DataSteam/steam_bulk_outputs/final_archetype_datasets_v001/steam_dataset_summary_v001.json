@@ -1,0 +1,45 @@
+{
+  "input_csv": "steam_bulk_outputs\\steam_v006b_50k_with_taxonomy_top_v005_rest_parts_local.csv",
+  "output_dir": "steam_bulk_outputs\\final_archetype_datasets_v001",
+  "rows_total": 50000,
+  "rows_with_llm_result": 49979,
+  "rows_missing_llm_result": 21,
+  "core_strict_rows": 13363,
+  "core_broad_rows": 24681,
+  "core_maybe_rows": 28034,
+  "review_pool_rows": 32951,
+  "has_clear_main_protagonist_counts": {
+    "yes": 29421,
+    "no": 11011,
+    "uncertain": 9547,
+    "<missing>": 21
+  },
+  "include_counts": {
+    "yes": 24855,
+    "no": 14179,
+    "maybe": 10945,
+    "<missing>": 21
+  },
+  "model_counts": {
+    "gpt-5.4-mini": 48979,
+    "gpt-5.5": 1000,
+    "<missing>": 21
+  },
+  "primary_archetype_counts_all_with_llm": {
+    "Not applicable": 10753,
+    "Uncertain": 8378,
+    "Hero/Warrior": 6447,
+    "Explorer/Seeker": 5132,
+    "Everyman/Orphan": 3406,
+    "Shadow/Antihero": 2504,
+    "Sage/Investigator": 2299,
+    "Ruler/Leader": 2137,
+    "Rebel/Outlaw": 1703,
+    "Creator/Artist": 1625,
+    "Jester/Trickster": 1614,
+    "Magician/Transformer": 1330,
+    "Lover": 1137,
+    "Caregiver/Guardian": 775,
+    "Innocent": 739
+  }
+}

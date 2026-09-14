@@ -1,0 +1,37 @@
+{
+  "input_dir": "steam_bulk_outputs\\three_groups_12_v001",
+  "output_dir": "steam_bulk_outputs\\human_readable_three_groups_12_v001",
+  "mode": "standard",
+  "groups": [
+    {
+      "group": "CORE_STRICT",
+      "input": "steam_bulk_outputs\\three_groups_12_v001\\group_1_core_strict_12_v001.csv",
+      "output": "steam_bulk_outputs\\human_readable_three_groups_12_v001\\human_readable_group_1_core_strict_12_v001.csv",
+      "status": "ok",
+      "rows": 13359
+    },
+    {
+      "group": "CORE_BROAD",
+      "input": "steam_bulk_outputs\\three_groups_12_v001\\group_2_core_broad_12_v001.csv",
+      "output": "steam_bulk_outputs\\human_readable_three_groups_12_v001\\human_readable_group_2_core_broad_12_v001.csv",
+      "status": "ok",
+      "rows": 24654
+    },
+    {
+      "group": "REVIEW_POOL",
+      "input": "steam_bulk_outputs\\three_groups_12_v001\\group_3_review_pool_12_v001.csv",
+      "output": "steam_bulk_outputs\\human_readable_three_groups_12_v001\\human_readable_group_3_review_pool_12_v001.csv",
+      "status": "ok",
+      "rows": 32959
+    }
+  ],
+  "columns": [
+    "jmeno hry",
+    "jmeno postavy",
+    "primarni archetyp",
+    "sekundarni archetyp",
+    "tercialni archetyp",
+    "věrohodnost odhadu na škále 0 až 1"
+  ],
+  "credibility_formula": "mean(protagonist_confidence_0_3, archetype_confidence_0_3, archetype_suitability_0_3) / 3"
+}

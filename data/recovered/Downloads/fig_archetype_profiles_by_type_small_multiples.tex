@@ -1,0 +1,81 @@
+% Required in the preamble:
+% \usepackage{pgfplots}
+% \usepackage{xcolor}
+% \usepgfplotslibrary{groupplots}
+% \pgfplotsset{compat=1.18}
+
+\definecolor{archExplorer}{HTML}{9BB63B}
+\definecolor{archOutlaw}{HTML}{D6C700}
+\definecolor{archMagician}{HTML}{D79A15}
+\definecolor{archHero}{HTML}{D07A1F}
+\definecolor{archLover}{HTML}{CF4E57}
+\definecolor{archJester}{HTML}{C52A7D}
+\definecolor{archEveryman}{HTML}{9446A6}
+\definecolor{archCaregiver}{HTML}{3D6DB6}
+\definecolor{archRuler}{HTML}{1E86B8}
+\definecolor{archCreator}{HTML}{0C98B5}
+\definecolor{archInnocent}{HTML}{1E9A94}
+\definecolor{archSage}{HTML}{0FAF74}
+\definecolor{gridgray}{HTML}{CFCFCF}
+
+\begin{figure*}[t]
+\centering
+\begin{tikzpicture}
+\begin{groupplot}[
+    group style={group size=3 by 2, horizontal sep=1.2cm, vertical sep=1.15cm},
+    width=0.34\textwidth,
+    height=0.28\textwidth,
+    xbar,
+    xmin=0,
+    xmax=42,
+    ytick=data,
+    yticklabel style={font=\tiny},
+    xticklabel style={font=\tiny},
+    xlabel={Share (\%)},
+    xlabel style={font=\tiny},
+    title style={font=\scriptsize},
+    grid=major,
+    grid style={dotted, color=gridgray!60},
+    bar width=3.5pt,
+]
+\nextgroupplot[title={Fixed character}, symbolic y coords={Hero,Explorer,Everyman,Rebel,Sage}]
+\addplot+[fill=archHero, draw=none] coordinates {(20.3,Hero)};
+\addplot+[fill=archExplorer, draw=none] coordinates {(18.0,Explorer)};
+\addplot+[fill=archEveryman, draw=none] coordinates {(13.1,Everyman)};
+\addplot+[fill=archOutlaw, draw=none] coordinates {(9.4,Rebel)};
+\addplot+[fill=archSage, draw=none] coordinates {(8.4,Sage)};
+\nextgroupplot[title={Silent avatar}, symbolic y coords={Explorer,Hero,Everyman,Sage,Jester}]
+\addplot+[fill=archExplorer, draw=none] coordinates {(25.8,Explorer)};
+\addplot+[fill=archHero, draw=none] coordinates {(15.4,Hero)};
+\addplot+[fill=archEveryman, draw=none] coordinates {(14.1,Everyman)};
+\addplot+[fill=archSage, draw=none] coordinates {(9.3,Sage)};
+\addplot+[fill=archJester, draw=none] coordinates {(8.1,Jester)};
+\nextgroupplot[title={Customizable}, symbolic y coords={Explorer,Hero,Everyman,Creator,Ruler}]
+\addplot+[fill=archExplorer, draw=none] coordinates {(23.0,Explorer)};
+\addplot+[fill=archHero, draw=none] coordinates {(22.3,Hero)};
+\addplot+[fill=archEveryman, draw=none] coordinates {(12.4,Everyman)};
+\addplot+[fill=archCreator, draw=none] coordinates {(8.8,Creator)};
+\addplot+[fill=archRuler, draw=none] coordinates {(7.8,Ruler)};
+\nextgroupplot[title={Fixed role}, symbolic y coords={Explorer,Hero,Everyman,Sage,Rebel}]
+\addplot+[fill=archExplorer, draw=none] coordinates {(22.4,Explorer)};
+\addplot+[fill=archHero, draw=none] coordinates {(20.6,Hero)};
+\addplot+[fill=archEveryman, draw=none] coordinates {(14.2,Everyman)};
+\addplot+[fill=archSage, draw=none] coordinates {(10.3,Sage)};
+\addplot+[fill=archOutlaw, draw=none] coordinates {(9.1,Rebel)};
+\nextgroupplot[title={Systemic role}, symbolic y coords={Ruler,Creator,Hero,Explorer,Sage}]
+\addplot+[fill=archRuler, draw=none] coordinates {(33.0,Ruler)};
+\addplot+[fill=archCreator, draw=none] coordinates {(15.6,Creator)};
+\addplot+[fill=archHero, draw=none] coordinates {(14.4,Hero)};
+\addplot+[fill=archExplorer, draw=none] coordinates {(7.6,Explorer)};
+\addplot+[fill=archSage, draw=none] coordinates {(7.2,Sage)};
+\nextgroupplot[title={Sports/racing}, symbolic y coords={Hero,Jester,Rebel,Explorer,Everyman}]
+\addplot+[fill=archHero, draw=none] coordinates {(39.0,Hero)};
+\addplot+[fill=archJester, draw=none] coordinates {(16.8,Jester)};
+\addplot+[fill=archOutlaw, draw=none] coordinates {(13.5,Rebel)};
+\addplot+[fill=archExplorer, draw=none] coordinates {(13.4,Explorer)};
+\addplot+[fill=archEveryman, draw=none] coordinates {(7.1,Everyman)};
+\end{groupplot}
+\end{tikzpicture}
+\caption{Position-weighted archetype profiles by protagonist type. Each panel shows the five strongest archetypes within a type group.}
+\label{fig:archetype_profiles_by_type_small_multiples}
+\end{figure*}

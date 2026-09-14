@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-06-22T01:54:44",
+  "from_year": 1970,
+  "to_year_exclusive": 2005,
+  "test_year": 0,
+  "raw_rows": 42533,
+  "broad_candidate_rows": 29054,
+  "low_priority_review_rows": 13479,
+  "outputs": {
+    "raw": "igdb_outputs\\pre2005_candidates_v002\\igdb_pre2005_raw_games_v002.csv",
+    "broad_candidates": "igdb_outputs\\pre2005_candidates_v002\\igdb_pre2005_broad_candidates_v002.csv",
+    "low_priority_review": "igdb_outputs\\pre2005_candidates_v002\\igdb_pre2005_low_priority_review_v002.csv",
+    "year_counts": "igdb_outputs\\pre2005_candidates_v002\\igdb_pre2005_year_counts_v002.csv",
+    "decade_counts": "igdb_outputs\\pre2005_candidates_v002\\igdb_pre2005_decade_counts_v002.csv",
+    "game_type_counts": "igdb_outputs\\pre2005_candidates_v002\\igdb_pre2005_game_type_counts_v002.csv",
+    "examples_by_year": "igdb_outputs\\pre2005_candidates_v002\\igdb_pre2005_examples_by_year_v002.csv"
+  },
+  "note": "V002 fetches by first_release_date only and filters game type locally. This avoids the over-strict v001 category=0 query."
+}

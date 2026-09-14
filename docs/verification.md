@@ -7,4 +7,15 @@
 - The endpoint is empty. Same-origin connection restrictions are present in the demo HTML. The original study backend is not called.
 - The comparison workbook was exported and visually inspected. The repository also provides plain UTF-8 CSV, JSON and Markdown.
 
-These checks cover the recovered supplement, not the correctness of all original annotations, a historical deployment reconstruction, or the 89,043-title analytical corpus.
+These initial interface/comparison checks do not establish the correctness of all original annotations or a historical deployment reconstruction.
+
+## Expanded game-data release — 14 September 2026
+
+- 582 recovered source files are mapped to 487 unique archived files; original aliases and byte-level SHA-256 checksums are recorded in `provenance/data-manifest.json`.
+- Original bytes were checked after compression during import. `python tools/verify_release.py --full` repeats archive and decompressed-byte checks offline.
+- Row counts for the twelve principal CSV exports were parsed directly from the archived files, including compressed masters.
+- The non-empty-title protagonist export and visibility export contain the same `(title, year, protagonist)` identity sets. The separate corrected count table has 90,180 title–year combinations and 35,652 in 2020–2024.
+- Overview figures were generated from the preserved aggregate CSVs and visually inspected. The raw and weighted series are explicitly distinguished.
+- New documentation links, citation consistency, generated artifact hashes and corrected table totals are checked by `verify_release.py`.
+
+Counts and file integrity are verified; annotation validity, the full raw-to-analysis transformation chain and the unavailable final participant export remain separate questions.

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite the accompanying Beyond the Hero paper using CITATION.bib. Thank you."
+type: dataset
+title: "Beyond the Hero: research data and supplementary materials"
+authors:
+  - family-names: Richtr
+    given-names: Radek
+repository-code: "https://github.com/richtrad/beyond-hero-icids2026-data"
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: Richtr
+      given-names: Radek
+  title: "Beyond the Hero: A Diachronic Study of Archetypal Shifts in Playable Protagonists Across Five Decades"
+  collection-title: "International Conference on Interactive Digital Storytelling (ICIDS 2026)"
+  year: 2026
+  notes: "Accepted paper. Final proceedings metadata forthcoming."

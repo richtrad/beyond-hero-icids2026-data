@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-06-22T04:36:39",
+  "inputs": {
+    "igdb": "igdb_outputs\\master_candidates_v001\\igdb_master_broad_analysis_years_v001.csv",
+    "steam": "steam_bulk_outputs\\final_archetype_datasets_12_v001\\steam_analysis_ready_12_v001.csv"
+  },
+  "settings": {
+    "no_api": false,
+    "chunk_size": 100,
+    "title_fallback": "exact normalized title; ambiguous Steam normalized titles excluded from fallback"
+  },
+  "rows": {
+    "igdb_broad_analysis_rows": 194354,
+    "steam_rows": 50000,
+    "external_steam_appid_links": 103454,
+    "already_annotated_external_high_confidence": 27785,
+    "already_annotated_title_fallback_lower_confidence": 3100,
+    "already_annotated_any": 30885,
+    "needs_llm_annotation": 163469,
+    "ambiguous_steam_normalized_title_rows": 1620
+  },
+  "outputs": {
+    "overlap": "igdb_outputs\\master_steam_llm_overlap_v001\\igdb_master_broad_with_steam_llm_overlap_v001.csv",
+    "already": "igdb_outputs\\master_steam_llm_overlap_v001\\igdb_already_annotated_from_steam_v001.csv",
+    "needs": "igdb_outputs\\master_steam_llm_overlap_v001\\igdb_needs_llm_annotation_v001.csv",
+    "year_counts": "igdb_outputs\\master_steam_llm_overlap_v001\\igdb_overlap_counts_by_year_v001.csv",
+    "external_cache": "igdb_outputs\\master_steam_llm_overlap_v001\\igdb_external_games_cache_v001.csv"
+  }
+}

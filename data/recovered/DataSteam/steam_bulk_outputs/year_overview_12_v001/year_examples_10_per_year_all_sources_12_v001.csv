@@ -1,0 +1,246 @@
+﻿source,release_year,example_no,selection_rank,appid,name,release_date_raw,total_ratings_pos_neg,positive_ratio,jmeno_postavy,primarni_archetyp_12,sekundarni_archetyp_12,tercialni_archetyp_12,verohodnost_0_1
+ANALYSIS_READY_12,2012,1,1,730,Counter-Strike: Global Offensive,"21 Aug, 2012",8815087,0.8669323399757711,Counter-Terrorists/Terrorists,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2012,2,16,227300,Euro Truck Simulator 2,"12 Oct, 2012",867404,0.973571715140811,Truck driver,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2012,3,351,200260,Batman: Arkham City - Game of the Year Edition,"7 Sep, 2012",68636,0.9608223089923656,Batman,Hero/Warrior,Sage/Investigator,Uncertain,1.0
+ANALYSIS_READY_12,2012,4,425,200510,XCOM: Enemy Unknown,"11 Oct, 2012",56414,0.9344666217605558,,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2012,5,479,108710,Alan Wake,"16 Feb, 2012",49163,0.9041148831438276,Alan Wake,Creator/Artist,Sage/Investigator,Uncertain,1.0
+ANALYSIS_READY_12,2012,6,497,200210,Realm of the Mad God Exalt,"20 Feb, 2012",46620,0.8306091806091807,,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2012,7,516,200710,Torchlight II,"20 Sep, 2012",44341,0.927606504138382,Torchlight II,Hero/Warrior,Explorer/Seeker,Magician/Transformer,0.556
+ANALYSIS_READY_12,2012,8,555,1840,Source Filmmaker,"10 Jul, 2012",40659,0.9294621117095846,,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2012,9,674,105450,Age of Empires III (2007),"5 Jan, 2012",32039,0.9090795592871188,,Not applicable,Uncertain,Uncertain,0.0
+ANALYSIS_READY_12,2012,10,1311,115320,Prototype 2,"26 Jul, 2012",14981,0.759361858353915,Prototype 2,Rebel/Outlaw,Hero/Warrior,Uncertain,0.889
+ANALYSIS_READY_12,2017,1,2,578080,PUBG: BATTLEGROUNDS,"21 Dec, 2017",2557944,0.5944058978617202,Battle royale combatant,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2017,2,96,700330,SCP: Secret Laboratory,"29 Dec, 2017",214309,0.9142079893984854,SCP: Secret Laboratory,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2017,3,98,698780,Doki Doki Literature Club!,"6 Oct, 2017",210717,0.9645496091914748,Doki Doki Literature Club!,Everyman/Orphan,Lover,Innocent,0.667
+ANALYSIS_READY_12,2017,4,109,435150,Divinity: Original Sin 2 - Definitive Edition,"14 Sep, 2017",190124,0.958143106604111,Godwoken,Hero/Warrior,Magician/Transformer,Explorer/Seeker,1.0
+ANALYSIS_READY_12,2017,5,117,518790,theHunter: Call of the Wild,"16 Feb, 2017",177610,0.8875682675525026,,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2017,6,156,524220,NieR:Automata,"17 Mar, 2017",140169,0.8705705255798357,"2B, 9S, A2",Hero/Warrior,Explorer/Seeker,Uncertain,1.0
+ANALYSIS_READY_12,2017,7,184,594570,Total War: WARHAMMER II,"28 Sep, 2017",124252,0.9237356340340598,,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2017,8,198,301520,Robocraft,"24 Aug, 2017",118055,0.7305069670916099,,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2017,9,244,418370,Resident Evil 7 Biohazard,"23 Jan, 2017",97846,0.9526603029250046,Resident Evil 7 Biohazard,Everyman/Orphan,Lover,Hero/Warrior,1.0
+ANALYSIS_READY_12,2017,10,248,460930,Tom Clancy's Ghost Recon Wildlands,"6 Mar, 2017",96577,0.798720192178262,Tom Clancy's Ghost Recon Wildlands,Hero/Warrior,Ruler/Leader,Sage/Investigator,0.667
+ANALYSIS_READY_12,<missing>,1,3,271590,Grand Theft Auto V Legacy,,1990556,0.8741175832280026,"Michael, Franklin, Trevor",Rebel/Outlaw,Everyman/Orphan,Uncertain,1.0
+ANALYSIS_READY_12,<missing>,2,6,252490,Rust,,1227784,0.8724132257791273,Naked survivor,Everyman/Orphan,Rebel/Outlaw,Explorer/Seeker,0.444
+ANALYSIS_READY_12,<missing>,3,11,553850,HELLDIVERS 2,,1017635,0.7624374161659141,Helldiver,Hero/Warrior,Jester/Trickster,Ruler/Leader,0.556
+ANALYSIS_READY_12,<missing>,4,12,1172470,Apex Legends,,994979,0.6714242210137098,Legends,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,<missing>,5,15,413150,Stardew Valley,,886195,0.9844153939031476,The Farmer,Creator/Artist,Caregiver/Guardian,Explorer/Seeker,1.0
+ANALYSIS_READY_12,<missing>,6,17,1091500,Cyberpunk 2077,,844921,0.843949907742854,V,Rebel/Outlaw,Explorer/Seeker,Uncertain,1.0
+ANALYSIS_READY_12,<missing>,7,18,292030,The Witcher 3: Wild Hunt,,835349,0.9612664886173324,Geralt of Rivia,Hero/Warrior,Caregiver/Guardian,Uncertain,1.0
+ANALYSIS_READY_12,<missing>,8,19,381210,Dead by Daylight,,797216,0.7905297936820134,Survivors and killers,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,<missing>,9,22,236390,War Thunder,,757086,0.639912770808072,Vehicle crew,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,<missing>,10,23,1174180,Red Dead Redemption 2,,733542,0.9224652439805764,Arthur Morgan,Hero/Warrior,Everyman/Orphan,Uncertain,1.0
+ANALYSIS_READY_12,2011,1,4,105600,Terraria,"16 May, 2011",1409473,0.9748175381862584,Player adventurer,Explorer/Seeker,Creator/Artist,Hero/Warrior,0.556
+ANALYSIS_READY_12,2011,2,39,620,Portal 2,"18 Apr, 2011",433510,0.9869091831791654,Chell,Everyman/Orphan,Rebel/Outlaw,Sage/Investigator,1.0
+ANALYSIS_READY_12,2011,3,63,72850,The Elder Scrolls V: Skyrim,"10 Nov, 2011",317279,0.9484239423346644,The Elder Scrolls V: Skyrim,Hero/Warrior,Explorer/Seeker,Magician/Transformer,1.0
+ANALYSIS_READY_12,2011,4,381,201270,Total War: SHOGUN 2,"14 Mar, 2011",64276,0.9154116622067334,,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2011,5,399,113200,The Binding of Isaac,"28 Sep, 2011",60379,0.9489888868646384,Isaac,Innocent,Everyman/Orphan,Uncertain,1.0
+ANALYSIS_READY_12,2011,6,559,24240,PAYDAY The Heist,"20 Oct, 2011",40223,0.934042711881262,PAYDAY crew,Rebel/Outlaw,Jester/Trickster,Uncertain,0.667
+ANALYSIS_READY_12,2011,7,589,115300,Call of Duty: Modern Warfare 3 (2011),"7 Nov, 2011",37953,0.8865438832239876,Task Force ensemble,Hero/Warrior,Caregiver/Guardian,Uncertain,0.667
+ANALYSIS_READY_12,2011,8,596,107100,Bastion,"16 Aug, 2011",37392,0.953706675224647,The Kid,Everyman/Orphan,Hero/Warrior,Explorer/Seeker,1.0
+ANALYSIS_READY_12,2011,9,600,113400,APB Reloaded,"6 Dec, 2011",37292,0.6353373377668132,,Not applicable,Uncertain,Uncertain,0.222
+ANALYSIS_READY_12,2011,10,651,110800,L.A. Noire,"8 Nov, 2011",34026,0.8585787339093635,Cole Phelps,Sage/Investigator,Hero/Warrior,Uncertain,1.0
+ANALYSIS_READY_12,2015,1,5,359550,Tom Clancy's Rainbow Six Siege,"1 Dec, 2015",1398584,0.838601042196965,Operators,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2015,2,44,377160,Fallout 4,"9 Nov, 2015",392287,0.8311618789304769,Sole Survivor,Everyman/Orphan,Caregiver/Guardian,Hero/Warrior,1.0
+ANALYSIS_READY_12,2015,3,60,284160,BeamNG.drive,"29 May, 2015",322278,0.97392003177381,BeamNG.drive,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2015,4,73,255710,Cities: Skylines,"10 Mar, 2015",275770,0.9296225115132176,Cities: Skylines,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2015,5,74,391540,Undertale,"15 Sep, 2015",272932,0.96757434086146,Undertale,Innocent,Everyman/Orphan,Magician/Transformer,1.0
+ANALYSIS_READY_12,2015,6,188,225540,Just Cause 3,"30 Nov, 2015",122161,0.8393186041371633,Rico Rodriguez,Rebel/Outlaw,Hero/Warrior,Jester/Trickster,1.0
+ANALYSIS_READY_12,2015,7,200,335300,DARK SOULS II: Scholar of the First Sin,"1 Apr, 2015",116710,0.8401336646388484,Bearer of the Curse,Everyman/Orphan,Hero/Warrior,Explorer/Seeker,0.889
+ANALYSIS_READY_12,2015,8,237,359320,Elite Dangerous,"2 Apr, 2015",100024,0.7736943133647924,Elite Dangerous,Explorer/Seeker,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2015,9,251,376210,The Isle,"1 Dec, 2015",94804,0.8141534112484705,The Isle,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2015,10,283,234140,Mad Max,"1 Sep, 2015",82660,0.922211468666828,Mad Max,Explorer/Seeker,Hero/Warrior,Uncertain,1.0
+ANALYSIS_READY_12,2007,1,7,440,Team Fortress 2,"10 Oct, 2007",1161472,0.8990866762177651,Mercenary classes,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2007,2,116,400,Portal,"10 Oct, 2007",177741,0.9847137126493044,Chell,Everyman/Orphan,Rebel/Outlaw,Sage/Investigator,1.0
+ANALYSIS_READY_12,2007,3,491,4500,S.T.A.L.K.E.R.: Shadow of Chernobyl,"20 Mar, 2007",47291,0.9465014484785688,Marked One,Explorer/Seeker,Sage/Investigator,Uncertain,1.0
+ANALYSIS_READY_12,2007,4,543,420,Half-Life 2: Episode Two,"10 Oct, 2007",41782,0.9706572208127902,Half-Life 2: Episode Two,Hero/Warrior,Rebel/Outlaw,Sage/Investigator,1.0
+ANALYSIS_READY_12,2007,5,856,2280,DOOM + DOOM II,"3 Aug, 2007",24984,0.9648174831892412,Doomguy,Hero/Warrior,Rebel/Outlaw,Uncertain,1.0
+ANALYSIS_READY_12,2007,6,1229,4760,Rome: Total War - Collection,"28 Aug, 2007",16177,0.9460344934165792,,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2007,7,1357,2310,Quake,"3 Aug, 2007",14400,0.9670833333333332,Quake,Hero/Warrior,Explorer/Seeker,Uncertain,0.778
+ANALYSIS_READY_12,2007,8,1383,6860,Hitman: Blood Money,"15 Mar, 2007",14034,0.9414992161892548,Hitman: Blood Money,Sage/Investigator,Rebel/Outlaw,Uncertain,1.0
+ANALYSIS_READY_12,2007,9,1398,2600,Vampire: The Masquerade - Bloodlines,"22 Mar, 2007",13868,0.9475771560426882,Vampire: The Masquerade - Bloodlines,Rebel/Outlaw,Explorer/Seeker,Uncertain,0.889
+ANALYSIS_READY_12,2007,10,1623,4570,"Warhammer 40,000: Dawn of War - Anniversary Edition (Classic)","7 Aug, 2007",11206,0.948955916473318,Space Marine faction,Not applicable,Uncertain,Uncertain,0.556
+ANALYSIS_READY_12,2006,1,8,4000,Garry's Mod,"29 Nov, 2006",1159707,0.9679565614418124,User,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2006,2,659,4700,Total War: MEDIEVAL II – Definitive Edition,"15 Nov, 2006",33344,0.9569937619961612,,Not applicable,Uncertain,Uncertain,0.0
+ANALYSIS_READY_12,2006,3,682,380,Half-Life 2: Episode One,"1 Jun, 2006",31822,0.957765068191817,Gordon Freeman,Hero/Warrior,Explorer/Seeker,Sage/Investigator,1.0
+ANALYSIS_READY_12,2006,4,1096,2990,FlatOut 2,"21 Dec, 2006",18660,0.9605037513397642,,Not applicable,Uncertain,Uncertain,0.889
+ANALYSIS_READY_12,2006,5,1135,3830,Psychonauts,"11 Oct, 2006",17925,0.9506276150627616,Psychonauts,Explorer/Seeker,Jester/Trickster,Sage/Investigator,1.0
+ANALYSIS_READY_12,2006,6,1180,228200,Company of Heroes,"11 Sep, 2006",16971,0.94425785162925,Commander,Ruler/Leader,Hero/Warrior,Sage/Investigator,0.667
+ANALYSIS_READY_12,2006,7,1669,2100,Dark Messiah of Might & Magic,"25 Oct, 2006",10764,0.91164994425864,fns,Magician/Transformer,Hero/Warrior,Uncertain,1.0
+ANALYSIS_READY_12,2006,8,1701,2630,Call of Duty 2,"13 Oct, 2006",10474,0.9360320794347908,Call of Duty 2,Hero/Warrior,Ruler/Leader,Uncertain,1.0
+ANALYSIS_READY_12,2006,9,2207,3910,Sid Meier's Civilization III Complete,"25 Oct, 2006",7231,0.8968330797953257,Civilization leadership,Ruler/Leader,Sage/Investigator,Explorer/Seeker,0.778
+ANALYSIS_READY_12,2006,10,2293,2620,Call of Duty (2003),"13 Oct, 2006",6895,0.9461928934010152,Jack,Hero/Warrior,Explorer/Seeker,Ruler/Leader,1.0
+ANALYSIS_READY_12,2024,1,9,2358720,Black Myth: Wukong,"19 Aug, 2024",1150098,0.9666306697342314,Destined One,Hero/Warrior,Explorer/Seeker,Magician/Transformer,1.0
+ANALYSIS_READY_12,2024,2,134,2183900,"Warhammer 40,000: Space Marine 2","9 Sep, 2024",162585,0.8287295876003321,Demetrian Titus,Hero/Warrior,Caregiver/Guardian,Uncertain,1.0
+ANALYSIS_READY_12,2024,3,194,1604030,V Rising,"8 May, 2024",119440,0.8891242464835901,Awakened vampire,Ruler/Leader,Magician/Transformer,Uncertain,1.0
+ANALYSIS_READY_12,2024,4,204,1643320,S.T.A.L.K.E.R. 2: Heart of Chornobyl,"20 Nov, 2024",113346,0.8052688228962646,S.T.A.L.K.E.R. 2: Heart of Chornobyl,Explorer/Seeker,Everyman/Orphan,Uncertain,0.889
+ANALYSIS_READY_12,2024,5,214,2527500,MiSide,"10 Dec, 2024",111087,0.98015969465374,MiSide,Everyman/Orphan,Explorer/Seeker,Innocent,0.667
+ANALYSIS_READY_12,2024,6,225,2054970,Dragon's Dogma 2,"21 Mar, 2024",106939,0.6092632248291082,Dragon's Dogma 2,Hero/Warrior,Explorer/Seeker,Ruler/Leader,1.0
+ANALYSIS_READY_12,2024,7,249,2835570,Buckshot Roulette,"4 Apr, 2024",95541,0.9602683664604724,Buckshot Roulette,Everyman/Orphan,Rebel/Outlaw,Uncertain,0.444
+ANALYSIS_READY_12,2024,8,316,2669320,EA SPORTS FC 25,"26 Sep, 2024",74796,0.4980613936574148,EA SPORTS FC 25,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2024,9,338,1363080,Manor Lords,"26 Apr, 2024",72120,0.8627842484747643,Manor Lords,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2024,10,394,1778820,TEKKEN 8,"25 Jan, 2024",61068,0.5407087181502588,Jin Kazama,Hero/Warrior,Rebel/Outlaw,Uncertain,0.667
+ANALYSIS_READY_12,2022,1,10,1245620,ELDEN RING,"24 Feb, 2022",1056677,0.9288931243890044,Tarnished,Hero/Warrior,Explorer/Seeker,Magician/Transformer,1.0
+ANALYSIS_READY_12,2022,2,25,1938090,Call of Duty: Modern Warfare II,"27 Oct, 2022",714114,0.5875728525137444,Task Force 141 soldiers,Hero/Warrior,Ruler/Leader,Uncertain,0.444
+ANALYSIS_READY_12,2022,3,75,261550,Mount & Blade II: Bannerlord,"25 Oct, 2022",264391,0.8788498852078929,Mount & Blade II: Bannerlord,Ruler/Leader,Hero/Warrior,Rebel/Outlaw,0.778
+ANALYSIS_READY_12,2022,4,139,1332010,Stray,"19 Jul, 2022",156607,0.9725746614136022,Stray cat,Explorer/Seeker,Innocent,Caregiver/Guardian,1.0
+ANALYSIS_READY_12,2022,5,143,1811260,EA SPORTS FIFA 23,"30 Sep, 2022",151419,0.5692284323631777,,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2022,6,197,1818750,MultiVersus,"19 Jul, 2022",118212,0.7640341082123643,,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2022,7,206,1361210,"Warhammer 40,000: Darktide","30 Nov, 2022",112960,0.7105878186968838,"Warhammer 40,000: Darktide",Everyman/Orphan,Hero/Warrior,Uncertain,0.667
+ANALYSIS_READY_12,2022,8,207,1446780,MONSTER HUNTER RISE,"12 Jan, 2022",112672,0.8215350752627094,MONSTER HUNTER RISE,Hero/Warrior,Caregiver/Guardian,Explorer/Seeker,1.0
+ANALYSIS_READY_12,2022,9,209,1817070,Marvel’s Spider-Man Remastered,"12 Aug, 2022",112392,0.9590184354758344,Marvel’s Spider-Man Remastered,Hero/Warrior,Caregiver/Guardian,Lover,1.0
+ANALYSIS_READY_12,2022,10,222,1167630,Teardown,"21 Apr, 2022",109462,0.9560669456066946,Teardown,Rebel/Outlaw,Creator/Artist,Uncertain,0.667
+ANALYSIS_READY_12,2009,1,13,550,Left 4 Dead 2,"16 Nov, 2009",963983,0.9753501877107792,Survivors,Everyman/Orphan,Hero/Warrior,Caregiver/Guardian,0.778
+ANALYSIS_READY_12,2009,2,158,3590,Plants vs. Zombies GOTY Edition,"5 May, 2009",139925,0.9760514561372164,,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2009,3,360,1250,Killing Floor,"14 May, 2009",67472,0.9488973203699312,,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2009,4,447,6060,"STAR WARS Battlefront II (Classic, 2005)","8 Jul, 2009",53287,0.9457466173738436,,Not applicable,Uncertain,Uncertain,0.556
+ANALYSIS_READY_12,2009,5,684,32370,STAR WARS Knights of the Old Republic,"5 Sep, 2009",31738,0.9114626000378095,Revan,Hero/Warrior,Explorer/Seeker,Uncertain,1.0
+ANALYSIS_READY_12,2009,6,882,32440,LEGO Star Wars - The Complete Saga,"12 Nov, 2009",23787,0.9669147013074368,Star Wars heroes,Hero/Warrior,Rebel/Outlaw,Caregiver/Guardian,0.778
+ANALYSIS_READY_12,2009,7,1239,6000,STAR WARS Republic Commando,"8 Jul, 2009",16044,0.9571802543006732,Republic Commando leader,Hero/Warrior,Ruler/Leader,Sage/Investigator,0.667
+ANALYSIS_READY_12,2009,8,1316,34900,Bad Rats: the Rats' Revenge,"20 Jul, 2009",14871,0.7897922130320758,Bad Rats: the Rats' Revenge,Jester/Trickster,Rebel/Outlaw,Creator/Artist,0.333
+ANALYSIS_READY_12,2009,9,1430,24740,Burnout Paradise: The Ultimate Box,"12 Mar, 2009",13386,0.872179889436725,player racer,Explorer/Seeker,Rebel/Outlaw,Jester/Trickster,0.556
+ANALYSIS_READY_12,2009,10,1438,6020,STAR WARS Jedi Knight - Jedi Academy,"16 Sep, 2009",13270,0.9605124340617937,Jedi academy student,Hero/Warrior,Explorer/Seeker,Ruler/Leader,0.556
+ANALYSIS_READY_12,2018,1,14,431960,Wallpaper Engine,"16 Nov, 2018",894458,0.9803679993918104,,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2018,2,50,960090,Bloons TD 6,"17 Dec, 2018",353960,0.9726212001356084,Monkey defense commander,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2018,3,53,444090,Paladins,"8 May, 2018",346404,0.8497967690904262,Paladins,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2018,4,136,379430,Kingdom Come: Deliverance,"13 Feb, 2018",162206,0.841189598411896,Henry,Everyman/Orphan,Hero/Warrior,Explorer/Seeker,1.0
+ANALYSIS_READY_12,2018,5,176,581320,Insurgency: Sandstorm,"12 Dec, 2018",126918,0.8498164168991003,,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2018,6,191,504230,Celeste,"25 Jan, 2018",120602,0.974652161655694,Madeline,Explorer/Seeker,Everyman/Orphan,Uncertain,1.0
+ANALYSIS_READY_12,2018,7,243,233860,Kenshi,"6 Dec, 2018",98135,0.9549294339430376,Kenshi,Not applicable,Uncertain,Uncertain,0.222
+ANALYSIS_READY_12,2018,8,250,613100,House Flipper,"17 May, 2018",95144,0.94168838812747,House Flipper,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2018,9,270,823130,Totally Accurate Battlegrounds,"5 Jun, 2018",87012,0.8840045051257298,Totally Accurate Battlegrounds,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2018,10,280,761890,Albion Online,"16 May, 2018",83074,0.7894527770421552,Albion Online,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2020,1,20,739630,Phasmophobia,"18 Sep, 2020",768779,0.9581570256211474,Ghost investigator,Sage/Investigator,Explorer/Seeker,Hero/Warrior,0.556
+ANALYSIS_READY_12,2020,2,94,427520,Factorio,"14 Aug, 2020",215209,0.9700802475732891,Factorio,Creator/Artist,Explorer/Seeker,Everyman/Orphan,0.667
+ANALYSIS_READY_12,2020,3,99,393380,Squad,"23 Sep, 2020",210551,0.8315704983590674,Squad,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2020,4,102,782330,DOOM Eternal,"19 Mar, 2020",206026,0.9115694135691612,Doom Slayer,Hero/Warrior,Rebel/Outlaw,Uncertain,1.0
+ANALYSIS_READY_12,2020,5,147,397540,Borderlands 3,"13 Mar, 2020",149065,0.8402240633280783,Vault Hunters,Rebel/Outlaw,Hero/Warrior,Jester/Trickster,0.667
+ANALYSIS_READY_12,2020,6,174,362890,Black Mesa,"6 Mar, 2020",127693,0.9519864048929856,Gordon Freeman,Hero/Warrior,Sage/Investigator,Everyman/Orphan,1.0
+ANALYSIS_READY_12,2020,7,189,412020,Metro Exodus,"14 Feb, 2020",121315,0.8980340436054899,Artyom,Explorer/Seeker,Hero/Warrior,Caregiver/Guardian,1.0
+ANALYSIS_READY_12,2020,8,302,1113000,Persona 4 Golden,"13 Jun, 2020",78346,0.9701580170015062,Persona 4 Golden,Sage/Investigator,Explorer/Seeker,Hero/Warrior,1.0
+ANALYSIS_READY_12,2020,9,362,431240,Golf With Your Friends,"19 May, 2020",67080,0.8811121049493142,,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2020,10,373,1250410,Microsoft Flight Simulator (2020) 40th Anniversary Edition,"17 Aug, 2020",65666,0.7887491243565925,,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2023,1,21,1086940,Baldur's Gate 3,"3 Aug, 2023",760662,0.9684827163707402,Player character,Hero/Warrior,Explorer/Seeker,Magician/Transformer,0.889
+ANALYSIS_READY_12,2023,2,62,990080,Hogwarts Legacy,"10 Feb, 2023",321395,0.902210675337202,Hogwarts Legacy,Magician/Transformer,Explorer/Seeker,Hero/Warrior,1.0
+ANALYSIS_READY_12,2023,3,115,2050650,Resident Evil 4,"23 Mar, 2023",181708,0.9770565962973562,Leon S. Kennedy,Hero/Warrior,Caregiver/Guardian,Sage/Investigator,1.0
+ANALYSIS_READY_12,2023,4,221,2195250,EA SPORTS FC 24,"28 Sep, 2023",109574,0.577518389398945,EA SPORTS FC 24,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2023,5,245,1942280,Brotato,"23 Jun, 2023",97801,0.9665034099855828,Brotato,Hero/Warrior,Jester/Trickster,Everyman/Orphan,0.444
+ANALYSIS_READY_12,2023,6,311,2399830,ARK: Survival Ascended,"25 Oct, 2023",75995,0.5905651687611027,ARK: Survival Ascended,Everyman/Orphan,Explorer/Seeker,Hero/Warrior,0.556
+ANALYSIS_READY_12,2023,7,363,1774580,STAR WARS Jedi: Survivor,"27 Apr, 2023",67054,0.6879679064634474,Cal Kestis,Hero/Warrior,Explorer/Seeker,Caregiver/Guardian,1.0
+ANALYSIS_READY_12,2023,8,367,2231450,Pizza Tower,"26 Jan, 2023",66693,0.9835964793906408,Peppino Spaghetti,Everyman/Orphan,Hero/Warrior,Jester/Trickster,1.0
+ANALYSIS_READY_12,2023,9,408,1272080,PAYDAY 3,"21 Sep, 2023",58692,0.4344203639337559,PAYDAY gang,Rebel/Outlaw,Jester/Trickster,Uncertain,0.889
+ANALYSIS_READY_12,2023,10,422,1364780,Street Fighter 6,"1 Jun, 2023",56666,0.851515900187061,World Tour avatar,Explorer/Seeker,Hero/Warrior,Innocent,0.667
+ANALYSIS_READY_12,2013,1,29,230410,Warframe,"25 Mar, 2013",626503,0.8705353366224903,Tenno Operator,Hero/Warrior,Magician/Transformer,Explorer/Seeker,1.0
+ANALYSIS_READY_12,2013,2,47,108600,Project Zomboid,"8 Nov, 2013",377063,0.941940736693868,Doomed survivor,Everyman/Orphan,Explorer/Seeker,Hero/Warrior,0.556
+ANALYSIS_READY_12,2013,3,70,107410,Arma 3,"12 Sep, 2013",283264,0.9042024401265252,Arma 3,Uncertain,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2013,4,219,231430,Company of Heroes 2,"25 Jun, 2013",109825,0.7895561119963579,Company of Heroes 2,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2013,5,322,224260,No More Room in Hell,"31 Oct, 2013",74253,0.8989939800412104,No More Room in Hell,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2013,6,549,225080,Brothers - A Tale of Two Sons,"3 Sep, 2013",40995,0.9445298207098428,Brothers - A Tale of Two Sons,Caregiver/Guardian,Innocent,Hero/Warrior,1.0
+ANALYSIS_READY_12,2013,7,582,109600,Neverwinter,"5 Dec, 2013",38585,0.7761306207075288,Neverwinter hero,Hero/Warrior,Explorer/Seeker,Magician/Transformer,0.667
+ANALYSIS_READY_12,2013,8,686,261030,The Walking Dead: Season Two,"17 Dec, 2013",31639,0.9648218970258226,Clementine,Everyman/Orphan,Caregiver/Guardian,Hero/Warrior,1.0
+ANALYSIS_READY_12,2013,9,760,104900,ORION: Prelude,"16 Apr, 2013",28485,0.7533087589959628,ORION: Prelude,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2013,10,820,233130,Shadow Warrior,"26 Sep, 2013",26151,0.9204619326220794,Shadow Warrior,Hero/Warrior,Jester/Trickster,Rebel/Outlaw,1.0
+ANALYSIS_READY_12,2019,1,30,1085660,Destiny 2,"1 Oct, 2019",625616,0.7958412188946574,The Guardian,Hero/Warrior,Magician/Transformer,Explorer/Seeker,0.889
+ANALYSIS_READY_12,2019,2,81,594650,Hunt: Showdown 1896,"27 Aug, 2019",248220,0.7296350012086052,Hunt: Showdown 1896,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2019,3,123,883710,Resident Evil 2,"24 Jan, 2019",172857,0.96985947922271,Leon and Claire,Hero/Warrior,Caregiver/Guardian,Everyman/Orphan,1.0
+ANALYSIS_READY_12,2019,4,171,361420,ASTRONEER,"5 Feb, 2019",128956,0.9213762833834797,,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2019,5,212,677620,Splitgate: Arena Warfare,"24 May, 2019",111740,0.9158403436549132,Splitgate: Arena Warfare,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2019,6,267,703080,Planet Zoo,"5 Nov, 2019",87849,0.9109836196200298,Planet Zoo,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2019,7,345,460950,Katana ZERO,"18 Apr, 2019",71069,0.9803430468980848,Katana ZERO,Sage/Investigator,Rebel/Outlaw,Uncertain,1.0
+ANALYSIS_READY_12,2019,8,378,489520,Minion Masters,"24 May, 2019",64905,0.8952777135813882,,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2019,9,396,1089350,NBA 2K20,"6 Sep, 2019",60673,0.4987391426169795,,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2019,10,415,678960,CODE VEIN,"26 Sep, 2019",57318,0.8431382811682194,Revenant protagonist,Everyman/Orphan,Hero/Warrior,Uncertain,1.0
+ANALYSIS_READY_12,2016,1,34,322330,Don't Starve Together,"21 Apr, 2016",499061,0.9525749357292996,The Survivors,Everyman/Orphan,Explorer/Seeker,Jester/Trickster,0.778
+ANALYSIS_READY_12,2016,2,43,374320,DARK SOULS III,"11 Apr, 2016",413775,0.9433291039816324,Ashen One,Hero/Warrior,Explorer/Seeker,Uncertain,0.889
+ANALYSIS_READY_12,2016,3,51,275850,No Man's Sky,"12 Aug, 2016",352858,0.8313032437977883,No Man's Sky,Explorer/Seeker,Innocent,Sage/Investigator,0.667
+ANALYSIS_READY_12,2016,4,57,394360,Hearts of Iron IV,"6 Jun, 2016",342150,0.8919129036972089,Hearts of Iron IV,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2016,5,58,489830,The Elder Scrolls V: Skyrim Special Edition,"27 Oct, 2016",337058,0.9202036444766184,The Elder Scrolls V: Skyrim Special Edition,Hero/Warrior,Explorer/Seeker,Magician/Transformer,1.0
+ANALYSIS_READY_12,2016,6,97,477160,Human Fall Flat,"22 Jul, 2016",213640,0.9467000561692568,Human Fall Flat,Jester/Trickster,Innocent,Explorer/Seeker,0.556
+ANALYSIS_READY_12,2016,7,101,379720,DOOM,"12 May, 2016",207279,0.9552390739052196,Doom Slayer,Hero/Warrior,Rebel/Outlaw,Uncertain,1.0
+ANALYSIS_READY_12,2016,8,112,281990,Stellaris,"9 May, 2016",185433,0.8602945538280673,,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2016,9,149,444200,World of Tanks Blitz,"9 Nov, 2016",148161,0.7856790923387396,,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2016,10,154,227940,Heroes & Generals,"18 Oct, 2016",142763,0.6759384434342232,,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2021,1,69,1063730,New World: Aeternum,"28 Sep, 2021",286878,0.6859989263728833,New World: Aeternum,Explorer/Seeker,Everyman/Orphan,Hero/Warrior,0.556
+ANALYSIS_READY_12,2021,2,118,1240440,Halo Infinite,"15 Nov, 2021",177041,0.6966352426838981,Master Chief,Hero/Warrior,Caregiver/Guardian,Uncertain,1.0
+ANALYSIS_READY_12,2021,3,142,1782210,Crab Game,"29 Oct, 2021",152433,0.9154054568236536,,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2021,4,190,1506830,FIFA 22,"1 Oct, 2021",120871,0.8049325313764261,,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2021,5,241,1217060,Gunfire Reborn,"17 Nov, 2021",99172,0.9342858871455652,Gunfire Reborn,Hero/Warrior,Explorer/Seeker,Magician/Transformer,0.444
+ANALYSIS_READY_12,2021,6,273,1366540,Dyson Sphere Program,"20 Jan, 2021",85088,0.9765771906731854,Dyson Sphere Program,Creator/Artist,Explorer/Seeker,Sage/Investigator,0.556
+ANALYSIS_READY_12,2021,7,275,1248130,Farming Simulator 22,"21 Nov, 2021",84512,0.9242474441499432,Farming Simulator 22,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2021,8,285,1274570,DEVOUR,"28 Jan, 2021",82514,0.9096274571587852,DEVOUR,Not applicable,Uncertain,Uncertain,0.556
+ANALYSIS_READY_12,2021,9,298,1454400,Cookie Clicker,"1 Sep, 2021",79892,0.9665298152505885,Cookie Clicker,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2021,10,330,766570,Russian Fishing 4,"10 Nov, 2021",73485,0.5388582703953188,Russian Fishing 4,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2000,1,80,10,Counter-Strike,"1 Nov, 2000",250245,0.9743171691742092,Counter-Strike,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2000,2,2508,60,Ricochet,"1 Nov, 2000",6028,0.8276376907763769,HE,Hero/Warrior,Explorer/Seeker,Jester/Trickster,0.667
+ANALYSIS_READY_12,2004,1,83,220,Half-Life 2,"16 Nov, 2004",245627,0.9759554120678916,Half-Life 2,Hero/Warrior,Rebel/Outlaw,Sage/Investigator,1.0
+ANALYSIS_READY_12,2004,2,114,240,Counter-Strike: Source,"1 Nov, 2004",182234,0.9626414390289408,,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2004,3,813,80,Counter-Strike: Condition Zero,"1 Mar, 2004",26558,0.9138865878454704,Counter-Strike: Condition Zero,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2004,4,1237,280,Half-Life: Source,"1 Jun, 2004",16056,0.6893373193821625,Gordon Freeman,Explorer/Seeker,Hero/Warrior,Sage/Investigator,1.0
+ANALYSIS_READY_12,2004,5,1312,100,Counter-Strike: Condition Zero,"1 Mar, 2004",14977,0.8975095145890365,Counter-Strike: Condition Zero,Not applicable,Uncertain,Uncertain,0.444
+ANALYSIS_READY_12,2004,6,1365,320,Half-Life 2: Deathmatch,"1 Nov, 2004",14296,0.9066871852266368,Half-Life 2: Deathmatch,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2025,1,92,2246340,Monster Hunter Wilds,"27 Feb, 2025",218415,0.5827118100863036,Monster Hunter Wilds,Hero/Warrior,Explorer/Seeker,Caregiver/Guardian,0.667
+ANALYSIS_READY_12,2025,2,215,1903340,Clair Obscur: Expedition 33,"24 Apr, 2025",111032,0.9566251170833634,Clair Obscur: Expedition 33,Hero/Warrior,Explorer/Seeker,Caregiver/Guardian,0.778
+ANALYSIS_READY_12,2025,3,232,1943950,Escape the Backrooms,"23 Oct, 2025",102529,0.9102790430024676,Escape the Backrooms,Everyman/Orphan,Explorer/Seeker,Uncertain,0.333
+ANALYSIS_READY_12,2025,4,355,2670630,Supermarket Simulator,"19 Jun, 2025",68341,0.9380020778156596,,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2025,5,540,1295660,Sid Meier's Civilization VII,"10 Feb, 2025",42248,0.4852774095815186,Sid Meier's Civilization VII,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2025,6,656,1657630,Slime Rancher 2,"23 Sep, 2025",33619,0.9430084178589488,Beatrix LeBeau,Explorer/Seeker,Caregiver/Guardian,Innocent,1.0
+ANALYSIS_READY_12,2025,7,697,427410,Abiotic Factor,"22 Jul, 2025",31274,0.96428343032551,GATE scientist,Sage/Investigator,Explorer/Seeker,Everyman/Orphan,0.667
+ANALYSIS_READY_12,2025,8,859,2531310,The Last of Us Part II Remastered,"3 Apr, 2025",24774,0.9050213933963026,Ellie/Abby,Rebel/Outlaw,Lover,Uncertain,1.0
+ANALYSIS_READY_12,2025,9,866,1062520,Dinkum,"22 Apr, 2025",24584,0.9221851610803776,,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2025,10,949,2407270,AI LIMIT,"27 Mar, 2025",22025,0.931305334846765,Arrisa,Explorer/Seeker,Hero/Warrior,Magician/Transformer,0.667
+ANALYSIS_READY_12,1998,1,148,70,Half-Life,"19 Nov, 1998",148221,0.9653557862920908,Gordon Freeman,Sage/Investigator,Hero/Warrior,Everyman/Orphan,1.0
+ANALYSIS_READY_12,2014,1,234,282070,This War of Mine,"14 Nov, 2014",101740,0.9286809514448594,This War of Mine,Everyman/Orphan,Caregiver/Guardian,Uncertain,0.889
+ANALYSIS_READY_12,2014,2,279,235460,METAL GEAR RISING: REVENGEANCE,"9 Jan, 2014",83293,0.9603808243189704,METAL GEAR RISING: REVENGEANCE,Hero/Warrior,Rebel/Outlaw,Uncertain,1.0
+ANALYSIS_READY_12,2014,3,287,254700,Resident Evil 4 (2005),"27 Feb, 2014",82434,0.9341169905621468,Resident Evil 4 (2005),Hero/Warrior,Caregiver/Guardian,Sage/Investigator,1.0
+ANALYSIS_READY_12,2014,4,312,331470,Everlasting Summer,"19 Nov, 2014",75514,0.9480626109065868,Everlasting Summer,Everyman/Orphan,Lover,Explorer/Seeker,1.0
+ANALYSIS_READY_12,2014,5,393,298110,Far Cry 4,"17 Nov, 2014",61267,0.8425090179052345,Ajay Ghale,Everyman/Orphan,Hero/Warrior,Rebel/Outlaw,1.0
+ANALYSIS_READY_12,2014,6,533,253710,theHunter Classic,"3 Jun, 2014",42953,0.5810769911298396,theHunter Classic,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2014,7,537,261640,Borderlands: The Pre-Sequel,"16 Oct, 2014",42379,0.7923027914769107,Borderlands: The Pre-Sequel,Rebel/Outlaw,Jester/Trickster,Uncertain,0.889
+ANALYSIS_READY_12,2014,8,553,302510,Ryse: Son of Rome,"10 Oct, 2014",40826,0.867461911526968,Marius Titus,Hero/Warrior,Ruler/Leader,Uncertain,1.0
+ANALYSIS_READY_12,2014,9,681,257510,The Talos Principle,"11 Dec, 2014",31861,0.9541131791218104,android child,Sage/Investigator,Explorer/Seeker,Magician/Transformer,1.0
+ANALYSIS_READY_12,2014,10,754,278360,A Story About My Uncle,"28 May, 2014",28916,0.915721399917001,A Story About My Uncle,Explorer/Seeker,Innocent,Lover,1.0
+ANALYSIS_READY_12,2008,1,391,500,Left 4 Dead,"17 Nov, 2008",61894,0.9632920800077552,Survivors,Everyman/Orphan,Hero/Warrior,Caregiver/Guardian,0.889
+ANALYSIS_READY_12,2008,2,2773,2700,RollerCoaster Tycoon 3: Platinum,"12 Mar, 2008",5179,0.9179378258351032,RollerCoaster Tycoon 3: Platinum,Not applicable,Uncertain,Uncertain,0.556
+ANALYSIS_READY_12,2008,3,4169,2820,X3: Terran Conflict,"16 Oct, 2008",2791,0.8538158366176998,Player pilot,Explorer/Seeker,Ruler/Leader,Hero/Warrior,0.667
+ANALYSIS_READY_12,2008,4,4270,3540,Peggle Nights,"15 Oct, 2008",2699,0.9662838088180808,Peggle Nights,Not applicable,Uncertain,Uncertain,0.778
+ANALYSIS_READY_12,2008,5,6033,24420,Aquaria,"15 Dec, 2008",1491,0.8799463447350772,Naija,Explorer/Seeker,Magician/Transformer,Hero/Warrior,1.0
+ANALYSIS_READY_12,2008,6,10017,1530,Multiwinia,"19 Sep, 2008",585,0.8170940170940171,sys,Ruler/Leader,Rebel/Outlaw,Hero/Warrior,0.667
+ANALYSIS_READY_12,2008,7,10177,2710,Act of War: Direct Action,"12 Mar, 2008",567,0.9012345679012346,Commander,Ruler/Leader,Hero/Warrior,Sage/Investigator,0.667
+ANALYSIS_READY_12,2008,8,10331,3560,Bejeweled Twist,"18 Nov, 2008",550,0.8309090909090909,Bejeweled Twist,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2008,9,11326,34470,Sid Meier's Civilization IV: Colonization,"23 Sep, 2008",462,0.7748917748917749,fns,Rebel/Outlaw,Ruler/Leader,Explorer/Seeker,0.556
+ANALYSIS_READY_12,2008,10,11694,31700,Iron Grip: Warlord,"5 Dec, 2008",436,0.8577981651376146,,Not applicable,Uncertain,Uncertain,0.778
+ANALYSIS_READY_12,2010,1,440,33230,Assassin's Creed 2,"4 Mar, 2010",54646,0.8932950261684295,Ezio Auditore,Rebel/Outlaw,Hero/Warrior,Lover,1.0
+ANALYSIS_READY_12,2010,2,567,32470,STAR WARS Empire at War - Gold Pack,"25 May, 2010",39435,0.9763661721820718,,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2010,3,605,24960,Battlefield: Bad Company 2,"2 Mar, 2010",37187,0.8537661010568209,Preston Marlowe,Hero/Warrior,Everyman/Orphan,Rebel/Outlaw,0.667
+ANALYSIS_READY_12,2010,4,841,34030,Total War: NAPOLEON – Definitive Edition,"25 Feb, 2010",25365,0.913818253498916,Total War: NAPOLEON – Definitive Edition,Not applicable,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2010,5,915,300,Day of Defeat: Source,"12 Jul, 2010",22689,0.9166556481114196,,Not applicable,Uncertain,Uncertain,0.0
+ANALYSIS_READY_12,2010,6,922,35010,Batman: Arkham Asylum Game of the Year Edition,"26 Mar, 2010",22483,0.9592581061246276,Batman,Hero/Warrior,Sage/Investigator,Uncertain,1.0
+ANALYSIS_READY_12,2010,7,945,33930,Arma 2: Operation Arrowhead,"29 Jun, 2010",22090,0.9241285649615212,,Not applicable,Uncertain,Uncertain,0.0
+ANALYSIS_READY_12,2010,8,984,630,Alien Swarm,"19 Jul, 2010",21274,0.9485287205039016,I.A.F. marines,Hero/Warrior,Caregiver/Guardian,Uncertain,0.333
+ANALYSIS_READY_12,2010,9,1568,34270,SEGA Mega Drive and Genesis Classics,"1 Jun, 2010",11802,0.8077444500932045,,Not applicable,Uncertain,Uncertain,0.111
+ANALYSIS_READY_12,2010,10,1817,31280,Poker Night at the Inventory,"22 Nov, 2010",9446,0.8974168960406521,Self avatar,Jester/Trickster,Explorer/Seeker,Sage/Investigator,0.444
+ANALYSIS_READY_12,2026,1,685,1062090,Timberborn,"12 Mar, 2026",31678,0.9554264789443778,,Not applicable,Uncertain,Uncertain,0.0
+ANALYSIS_READY_12,2026,2,1712,327070,Gloria Victis: Medieval MMORPG,"17 Jun, 2026",10338,0.6784677887405688,Gloria Victis: Medieval MMORPG,Hero/Warrior,Ruler/Leader,Explorer/Seeker,0.667
+ANALYSIS_READY_12,2026,3,2010,2904000,The Spell Brigade,"29 Apr, 2026",8202,0.8551572787125091,The spell brigade member,Magician/Transformer,Hero/Warrior,Creator/Artist,0.667
+ANALYSIS_READY_12,2026,4,2467,2294660,The Quinfall,"6 Feb, 2026",6190,0.4775444264943457,,Uncertain,Uncertain,Uncertain,0.222
+ANALYSIS_READY_12,2026,5,2697,598980,The Coin Game,"19 Mar, 2026",5418,0.956810631229236,pav,Jester/Trickster,Everyman/Orphan,Explorer/Seeker,0.333
+ANALYSIS_READY_12,2026,6,2855,2890830,Streamer Life Simulator 2,"5 Feb, 2026",4924,0.8318440292445166,Streamer Life Simulator 2,Everyman/Orphan,Creator/Artist,Rebel/Outlaw,0.667
+ANALYSIS_READY_12,2026,7,3274,2344320,Eldegarde,"21 Jan, 2026",4033,0.6568311430696752,,Uncertain,Uncertain,Uncertain,0.333
+ANALYSIS_READY_12,2026,8,3802,1699480,KLETKA,"19 Feb, 2026",3205,0.930421216848674,KLETKA,Everyman/Orphan,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2026,9,3832,1648390,ScooterFlow,"29 Apr, 2026",3167,0.9516892958635932,Scooter rider,Jester/Trickster,Rebel/Outlaw,Hero/Warrior,0.556
+ANALYSIS_READY_12,2026,10,3853,1578390,My Garage,"2 Jun, 2026",3134,0.9148053605615828,mechanic,Creator/Artist,Explorer/Seeker,Everyman/Orphan,0.667
+ANALYSIS_READY_12,1999,1,834,50,Half-Life: Opposing Force,"1 Nov, 1999",25561,0.9531317241109504,Half-Life: Opposing Force,Hero/Warrior,Everyman/Orphan,Sage/Investigator,0.889
+ANALYSIS_READY_12,1999,2,1914,20,Team Fortress Classic,"1 Apr, 1999",8738,0.8699931334401465,,Not applicable,Uncertain,Uncertain,0.778
+ANALYSIS_READY_12,1999,3,5239,224920,Legacy of Kain: Soul Reaver,"8 Sep, 1999",1905,0.7349081364829396,SHA,Ruler/Leader,Explorer/Seeker,Uncertain,0.667
+ANALYSIS_READY_12,2001,1,1088,130,Half-Life: Blue Shift,"1 Jun, 2001",18794,0.9249760561881452,Frs,Hero/Warrior,Sage/Investigator,Everyman/Orphan,1.0
+ANALYSIS_READY_12,2001,2,3835,40,Deathmatch Classic,"1 Jun, 2001",3163,0.8276952260512171,,Not applicable,Uncertain,Uncertain,0.111
+ANALYSIS_READY_12,2001,3,12420,200960,Geneforge 1,"1 Dec, 2001",388,0.9252577319587628,,Hero/Warrior,Sage/Investigator,Magician/Transformer,0.778
+ANALYSIS_READY_12,2005,1,1404,340,Half-Life 2: Lost Coast,"27 Oct, 2005",13686,0.8925179015051878,,Not applicable,Uncertain,Uncertain,0.0
+ANALYSIS_READY_12,2005,2,2294,3920,Sid Meier's Pirates!,"11 Jul, 2005",6894,0.9457499274731652,Gordon,Rebel/Outlaw,Explorer/Seeker,Jester/Trickster,1.0
+ANALYSIS_READY_12,2005,3,7219,1500,Darwinia,"1 Dec, 2005",1080,0.8,RUL,Ruler/Leader,Creator/Artist,Magician/Transformer,0.667
+ANALYSIS_READY_12,2005,4,21104,1002,Rag Doll Kung Fu,"12 Oct, 2005",121,0.7520661157024794,Rag Doll Kung Fu,Hero/Warrior,Jester/Trickster,Uncertain,0.333
+ANALYSIS_READY_12,2005,5,29387,200990,Geneforge 3,"1 Apr, 2005",54,0.8518518518518519,fns,Hero/Warrior,Magician/Transformer,Explorer/Seeker,0.444
+ANALYSIS_READY_12,1997,1,1639,232770,POSTAL,"14 Nov, 1997",11023,0.909280595119296,The Postal Dude,Rebel/Outlaw,Jester/Trickster,Uncertain,1.0
+ANALYSIS_READY_12,1997,2,7775,282010,Carmageddon Max Pack,"30 Jun, 1997",943,0.887592788971368,Carmageddon Max Pack,Not applicable,Uncertain,Uncertain,0.111
+ANALYSIS_READY_12,2003,1,2240,30,Day of Defeat,"1 May, 2003",7102,0.9031258800337932,Team-based WWII shooter,Not applicable,Uncertain,Uncertain,0.667
+ANALYSIS_READY_12,2003,2,7827,259340,Chicken Shoot Gold,"1 Nov, 2003",932,0.6781115879828327,,Not applicable,Uncertain,Uncertain,0.111
+ANALYSIS_READY_12,2003,3,24886,200980,Geneforge 2,"1 Jul, 2003",82,0.8780487804878049,Geneforge 2,Creator/Artist,Magician/Transformer,Explorer/Seeker,0.667

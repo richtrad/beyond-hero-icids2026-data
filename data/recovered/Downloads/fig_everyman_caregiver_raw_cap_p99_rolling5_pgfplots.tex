@@ -1,0 +1,84 @@
+% Required in the preamble:
+% \usepackage{pgfplots}
+% \usepackage{xcolor}
+% \pgfplotsset{compat=1.18}
+
+% Colors matched to the archetype validator palette.
+\definecolor{archEveryman}{HTML}{9446A6}
+\definecolor{archCaregiver}{HTML}{3D6DB6}
+\definecolor{gridgray}{HTML}{CFCFCF}
+
+\pgfplotstableread{
+year Everyman Caregiver
+1982 0.192 0.000
+1983 0.192 0.000
+1984 0.144 0.000
+1985 5.899 0.000
+1986 6.246 0.181
+1987 6.788 0.181
+1988 5.516 0.145
+1989 6.765 0.145
+1990 5.490 0.145
+1991 5.285 0.000
+1992 4.988 0.000
+1993 7.612 0.010
+1994 6.656 0.010
+1995 5.891 0.073
+1996 9.003 0.142
+1997 9.949 0.142
+1998 7.253 0.132
+1999 8.988 0.145
+2000 7.701 0.242
+2001 5.026 0.173
+2002 4.710 0.286
+2003 5.559 0.401
+2004 5.209 0.403
+2005 8.048 1.442
+2006 11.092 2.111
+2007 11.381 2.752
+2008 13.177 3.054
+2009 13.514 4.033
+2010 11.485 4.213
+2011 11.376 4.550
+2012 13.334 4.418
+2013 13.078 4.824
+2014 13.328 4.748
+2015 13.923 3.962
+2016 13.244 4.149
+2017 12.730 4.258
+2018 12.571 4.346
+2019 13.011 4.561
+2020 12.815 4.750
+2021 12.176 4.547
+2022 12.971 4.623
+2023 13.411 4.640
+2024 13.374 4.299
+}\everycaredata
+
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    width=\linewidth,
+    height=0.44\linewidth,
+    xmin=1980, xmax=2024,
+    ymin=0, ymax=16,
+    xtick={1980,1985,1990,1995,2000,2005,2010,2015,2020},
+    xticklabel style={font=\scriptsize},
+    ymajorgrids,
+    grid style={dotted, color=gridgray!70},
+    xlabel={Release year},
+    ylabel={Annual share (\%)},
+    legend style={font=\scriptsize, at={(0.5,-0.20)}, anchor=north, legend columns=2},
+    legend cell align={left},
+    every axis plot/.append style={mark size=1.15pt},
+]
+\addplot+[color=archEveryman, very thick, solid, mark=*] table[x=year,y=Everyman] {\everycaredata};
+\addlegendentry{Everyman}
+\addplot+[color=archCaregiver, thick, densely dashed, mark=triangle*] table[x=year,y=Caregiver] {\everycaredata};
+\addlegendentry{Caregiver}
+\end{axis}
+\end{tikzpicture}
+\caption{Everyman rise and Caregiver as a secondary motif using annual raw-cap-P99 normalized shares smoothed by a centered five-year rolling mean.}
+\label{fig:everyman_caregiver_raw_cap_p99_rolling5}
+\end{figure}

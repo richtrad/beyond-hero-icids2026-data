@@ -1,0 +1,40 @@
+{
+  "id": "batch_6a371fdd74c8819090f8f3bc1fbcb468",
+  "completion_window": "24h",
+  "created_at": 1781997533,
+  "endpoint": "/v1/responses",
+  "input_file_id": "file-VwrnJmwucN39gUoFpXm4iP",
+  "object": "batch",
+  "status": "completed",
+  "cancelled_at": null,
+  "cancelling_at": null,
+  "completed_at": 1781997890,
+  "error_file_id": null,
+  "errors": null,
+  "expired_at": null,
+  "expires_at": 1782083933,
+  "failed_at": null,
+  "finalizing_at": 1781997889,
+  "in_progress_at": 1781997594,
+  "metadata": {
+    "description": "Steam v005 TOP 1000 protagonist/archetype GPT-5.5"
+  },
+  "model": "gpt-5.5-2026-04-23",
+  "output_file_id": "file-QTJ6H5bnXyDzJnccUAPEoi",
+  "request_counts": {
+    "completed": 20,
+    "failed": 0,
+    "total": 20
+  },
+  "usage": {
+    "input_tokens": 72105,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 122574,
+    "output_tokens_details": {
+      "reasoning_tokens": 41185
+    },
+    "total_tokens": 194679
+  }
+}

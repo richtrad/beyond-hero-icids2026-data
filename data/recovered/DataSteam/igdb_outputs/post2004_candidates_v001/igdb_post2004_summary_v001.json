@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-06-22T02:15:20",
+  "from_year": 2005,
+  "to_year_exclusive": 2027,
+  "test_year": 0,
+  "raw_rows": 236084,
+  "broad_candidate_rows": 177446,
+  "low_priority_review_rows": 58638,
+  "outputs": {
+    "raw": "igdb_outputs\\post2004_candidates_v001\\igdb_post2004_raw_games_v001.csv",
+    "broad_candidates": "igdb_outputs\\post2004_candidates_v001\\igdb_post2004_broad_candidates_v001.csv",
+    "low_priority_review": "igdb_outputs\\post2004_candidates_v001\\igdb_post2004_low_priority_review_v001.csv",
+    "year_counts": "igdb_outputs\\post2004_candidates_v001\\igdb_post2004_year_counts_v001.csv",
+    "decade_counts": "igdb_outputs\\post2004_candidates_v001\\igdb_post2004_decade_counts_v001.csv",
+    "game_type_counts": "igdb_outputs\\post2004_candidates_v001\\igdb_post2004_game_type_counts_v001.csv",
+    "examples_by_year": "igdb_outputs\\post2004_candidates_v001\\igdb_post2004_examples_by_year_v001.csv"
+  },
+  "note": "Post-2004 companion catalog. It does not touch pre2005 output folders and uses IGDB first_release_date."
+}

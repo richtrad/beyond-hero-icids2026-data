@@ -1,0 +1,126 @@
+% Required in the preamble:
+% \usepackage{pgfplots}
+% \usepackage{xcolor}
+% \pgfplotsset{compat=1.18}
+
+% Colors matched to the archetype validator palette.
+\definecolor{archExplorer}{HTML}{9BB63B}
+\definecolor{archOutlaw}{HTML}{D6C700}
+\definecolor{archMagician}{HTML}{D79A15}
+\definecolor{archHero}{HTML}{D07A1F}
+\definecolor{archLover}{HTML}{CF4E57}
+\definecolor{archJester}{HTML}{C52A7D}
+\definecolor{archEveryman}{HTML}{9446A6}
+\definecolor{archCaregiver}{HTML}{3D6DB6}
+\definecolor{archRuler}{HTML}{1E86B8}
+\definecolor{archCreator}{HTML}{0C98B5}
+\definecolor{archInnocent}{HTML}{1E9A94}
+\definecolor{archSage}{HTML}{0FAF74}
+\definecolor{gridgray}{HTML}{CFCFCF}
+
+\pgfplotstableread{
+year Innocent Everyman Hero Caregiver Explorer Rebel Lover Creator Jester Sage Magician Ruler
+1982 0.000 0.192 16.238 0.000 34.832 10.526 0.000 0.000 10.142 5.263 22.807 0.000
+1983 0.000 0.192 16.238 0.000 34.832 10.526 0.000 0.000 10.142 5.263 22.807 0.000
+1984 0.000 0.144 20.073 0.000 39.282 11.842 0.000 0.000 7.607 3.947 17.105 0.000
+1985 0.301 5.899 12.393 0.000 26.124 16.807 7.045 0.000 13.259 4.055 13.760 0.358
+1986 0.301 6.246 15.134 0.181 22.407 17.591 8.027 0.000 7.854 7.537 13.760 0.962
+1987 0.762 6.788 21.192 0.181 31.070 10.267 9.183 0.000 9.470 7.274 1.405 2.408
+1988 0.690 5.516 18.473 0.145 31.307 9.285 7.346 0.000 7.576 10.192 7.392 2.078
+1989 1.164 6.765 15.991 0.145 28.597 7.123 8.295 0.000 8.975 13.393 7.475 2.078
+1990 1.663 5.490 19.028 0.145 36.583 3.320 2.659 0.063 4.585 16.982 7.083 2.400
+1991 1.975 5.285 18.484 0.000 37.195 5.124 1.997 0.063 4.658 15.589 7.147 2.485
+1992 2.377 4.988 21.420 0.000 35.239 4.868 1.072 0.278 3.831 15.595 6.702 3.630
+1993 2.855 7.612 25.274 0.010 33.623 5.698 2.732 0.278 3.931 12.818 1.549 3.620
+1994 2.975 6.656 31.167 0.010 31.421 6.676 1.917 0.446 2.797 10.396 1.859 3.681
+1995 2.321 5.891 32.792 0.073 29.777 9.132 1.917 0.700 4.884 7.167 1.951 3.395
+1996 2.053 9.003 33.742 0.142 24.436 7.291 1.835 0.728 3.207 12.074 1.916 3.572
+1997 1.300 9.949 29.057 0.142 24.028 7.952 2.303 0.513 2.871 13.770 4.381 3.736
+1998 0.889 7.253 30.103 0.132 22.525 9.774 0.643 0.528 4.202 14.218 5.039 4.694
+1999 0.302 8.988 24.583 0.145 21.874 12.193 0.523 0.483 3.956 16.031 4.829 6.092
+2000 0.217 7.701 24.040 0.242 19.569 14.165 0.569 0.359 2.031 16.565 5.489 9.052
+2001 0.999 5.026 23.839 0.173 21.448 17.398 0.571 0.681 4.279 10.787 5.756 9.041
+2002 1.048 4.710 25.480 0.286 20.261 22.081 1.706 1.108 4.299 8.521 3.221 7.278
+2003 0.962 5.559 25.228 0.401 20.187 19.924 1.725 1.273 5.027 9.956 1.550 8.209
+2004 0.968 5.209 28.712 0.403 18.970 17.108 1.864 1.183 5.908 9.049 2.277 8.350
+2005 1.053 8.048 29.402 1.442 18.792 14.663 1.826 1.533 5.724 9.936 1.687 5.894
+2006 0.260 11.092 29.280 2.111 17.209 13.981 1.832 1.478 4.795 9.801 1.834 6.326
+2007 0.312 11.381 31.293 2.752 16.346 10.645 0.705 1.733 5.914 9.415 2.763 6.741
+2008 1.622 13.177 29.925 3.054 15.051 12.312 1.287 2.411 4.539 7.532 2.912 6.180
+2009 2.230 13.514 27.966 4.033 14.650 12.883 1.251 3.013 4.846 6.871 3.262 5.482
+2010 2.598 11.485 28.976 4.213 13.168 12.993 1.330 3.109 5.807 7.187 3.717 5.417
+2011 2.897 11.376 28.114 4.550 13.379 12.124 1.448 3.254 5.429 8.321 3.881 5.226
+2012 3.268 13.334 25.708 4.418 14.258 11.981 1.700 3.333 5.319 7.999 3.488 5.192
+2013 2.872 13.078 25.718 4.824 15.276 10.905 1.895 3.132 5.778 7.892 3.876 4.754
+2014 2.848 13.328 24.488 4.748 15.101 10.938 2.544 3.469 5.585 8.619 3.274 5.058
+2015 3.053 13.923 23.069 3.962 16.500 10.286 3.470 3.557 5.457 8.140 3.219 5.364
+2016 3.216 13.244 22.389 4.149 17.632 9.737 3.891 3.684 5.203 8.058 3.159 5.638
+2017 3.235 12.730 22.825 4.258 18.260 9.186 3.989 3.912 4.982 7.865 3.396 5.361
+2018 3.105 12.571 22.496 4.346 18.474 9.259 4.231 4.229 4.770 7.439 3.614 5.466
+2019 3.180 13.011 22.405 4.561 18.736 8.613 4.106 4.398 4.580 7.362 3.841 5.208
+2020 3.165 12.815 22.148 4.750 18.513 8.943 3.813 4.669 4.694 6.889 4.114 5.487
+2021 3.051 12.176 22.967 4.547 18.013 8.950 4.083 5.147 4.631 6.422 4.678 5.336
+2022 2.768 12.971 22.631 4.623 18.097 8.625 3.688 5.541 4.530 6.084 4.521 5.922
+2023 2.404 13.411 22.687 4.640 18.628 7.996 3.313 5.710 4.375 6.274 4.580 5.981
+2024 2.083 13.374 22.900 4.299 19.117 8.105 3.348 5.712 4.457 5.578 4.631 6.396
+}\allarchrolling
+
+\begin{figure*}[t]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    width=\textwidth,
+    height=0.56\textwidth,
+    xmin=1980, xmax=2024,
+    ymin=0, ymax=40,
+    xtick={1980,1985,1990,1995,2000,2005,2010,2015,2020},
+    xticklabel style={font=\scriptsize},
+    ymajorgrids,
+    grid style={dotted, color=gridgray!70},
+    xlabel={Release year},
+    ylabel={Annual share (\%)},
+    title={\small raw\_cap\_p99, 5-year rolling mean},
+    legend columns=4,
+    legend style={font=\tiny, at={(0.5,-0.22)}, anchor=north},
+    legend cell align={left},
+    line width=0.8pt,
+    every axis plot/.append style={mark size=1.05pt},
+]
+
+% Group 1: Outlaw / Magician / Hero
+\addplot+[color=archOutlaw, dashed, mark=square*] table[x=year,y=Rebel] {\allarchrolling};
+\addlegendentry{Rebel}
+\addplot+[color=archMagician, dotted, mark=square*] table[x=year,y=Magician] {\allarchrolling};
+\addlegendentry{Magician}
+\addplot+[color=archHero, very thick, solid, mark=square*, mark size=1.35pt] table[x=year,y=Hero] {\allarchrolling};
+\addlegendentry{Hero}
+
+% Group 2: Lover / Jester / Everyman
+\addplot+[color=archLover, dashed, mark=*] table[x=year,y=Lover] {\allarchrolling};
+\addlegendentry{Lover}
+\addplot+[color=archJester, dotted, mark=*] table[x=year,y=Jester] {\allarchrolling};
+\addlegendentry{Jester}
+\addplot+[color=archEveryman, thick, solid, mark=*, mark size=1.2pt] table[x=year,y=Everyman] {\allarchrolling};
+\addlegendentry{Everyman}
+
+% Group 3: Caregiver / Ruler / Creator
+\addplot+[color=archCaregiver, dashed, mark=triangle*] table[x=year,y=Caregiver] {\allarchrolling};
+\addlegendentry{Caregiver}
+\addplot+[color=archRuler, dotted, mark=triangle*] table[x=year,y=Ruler] {\allarchrolling};
+\addlegendentry{Ruler}
+\addplot+[color=archCreator, solid, mark=triangle*] table[x=year,y=Creator] {\allarchrolling};
+\addlegendentry{Creator}
+
+% Group 4: Innocent / Sage / Explorer
+\addplot+[color=archInnocent, dashed, mark=diamond*] table[x=year,y=Innocent] {\allarchrolling};
+\addlegendentry{Innocent}
+\addplot+[color=archSage, dotted, mark=diamond*] table[x=year,y=Sage] {\allarchrolling};
+\addlegendentry{Sage}
+\addplot+[color=archExplorer, very thick, solid, mark=diamond*, mark size=1.35pt] table[x=year,y=Explorer] {\allarchrolling};
+\addlegendentry{Explorer}
+
+\end{axis}
+\end{tikzpicture}
+\caption{Annual normalized archetype shares smoothed by a centered five-year rolling mean. The raw Steam reaction count is capped at the 99th percentile before weighting, reducing blockbuster domination while preserving cultural-visibility effects.}
+\label{fig:all12_archetypes_raw_cap_p99_rolling5}
+\end{figure*}

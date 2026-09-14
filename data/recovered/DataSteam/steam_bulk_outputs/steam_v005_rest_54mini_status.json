@@ -1,0 +1,50 @@
+{
+  "id": "batch_6a371fe4194481909f27f042702091f0",
+  "completion_window": "24h",
+  "created_at": 1781997540,
+  "endpoint": "/v1/responses",
+  "input_file_id": "file-HaHGVRPtSp1VzxDDhMzPBg",
+  "object": "batch",
+  "status": "failed",
+  "cancelled_at": null,
+  "cancelling_at": null,
+  "completed_at": null,
+  "error_file_id": null,
+  "errors": {
+    "data": [
+      {
+        "code": "token_limit_exceeded",
+        "line": null,
+        "message": "Enqueued token limit reached for gpt-5.4-mini in organization org-iLJkHDydMb865Myk47UJqfwl. Limit: 2,000,000 enqueued tokens. Please try again once some in_progress batches have been completed.",
+        "param": null
+      }
+    ],
+    "object": "list"
+  },
+  "expired_at": null,
+  "expires_at": 1782083940,
+  "failed_at": 1781997601,
+  "finalizing_at": null,
+  "in_progress_at": null,
+  "metadata": {
+    "description": "Steam v005 REST protagonist/archetype GPT-5.4-mini"
+  },
+  "model": "gpt-5.4-mini-2026-03-17",
+  "output_file_id": null,
+  "request_counts": {
+    "completed": 0,
+    "failed": 0,
+    "total": 0
+  },
+  "usage": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 0
+  }
+}

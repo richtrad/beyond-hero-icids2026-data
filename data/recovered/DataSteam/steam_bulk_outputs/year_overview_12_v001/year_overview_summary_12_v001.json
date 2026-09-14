@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-06-22T00:54:32",
+  "output_dir": "steam_bulk_outputs\\year_overview_12_v001",
+  "examples_per_year": 10,
+  "sources": [
+    {
+      "source": "ANALYSIS_READY_12",
+      "rows_total": 50000,
+      "rows_with_release_year": 18748,
+      "rows_missing_release_year": 31252,
+      "min_release_year": 1997,
+      "max_release_year": 2026,
+      "input_csv": "steam_bulk_outputs\\release_years_12_v002\\steam_analysis_ready_12_with_year_v002.csv"
+    }
+  ],
+  "outputs": {
+    "counts_csv": "steam_bulk_outputs\\year_overview_12_v001\\year_counts_all_sources_12_v001.csv",
+    "examples_csv": "steam_bulk_outputs\\year_overview_12_v001\\year_examples_10_per_year_all_sources_12_v001.csv",
+    "markdown_overview": "steam_bulk_outputs\\year_overview_12_v001\\year_overview_all_sources_12_v001.md"
+  },
+  "note": "release_year is the Steam Store release year, not necessarily original game release year."
+}

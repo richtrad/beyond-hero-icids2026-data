@@ -1,0 +1,23 @@
+{
+  "input_csv": "steam_bulk_outputs\\final_archetype_datasets_12_v001\\steam_analysis_ready_12_v001.csv",
+  "output_dir": "steam_bulk_outputs\\three_groups_12_v001",
+  "total_rows": 50000,
+  "standard_groups_may_overlap": true,
+  "standard_group_rows": {
+    "group_1_core_strict": 13359,
+    "group_2_core_broad": 24654,
+    "group_3_review_pool": 32959
+  },
+  "exclusive_groups_do_not_overlap": true,
+  "exclusive_group_rows": {
+    "exclusive_group_1_core_strict": 13359,
+    "exclusive_group_2_core_broad_nonreview": 1228,
+    "exclusive_group_3_review_pool_noncorestrict": 32945
+  },
+  "notes": [
+    "Standard groups preserve the published methodological definitions.",
+    "CORE_STRICT is a subset of CORE_BROAD by definition.",
+    "REVIEW_POOL can overlap with broader corpus flags when a row has a clear protagonist but low confidence or manual-review need.",
+    "Exclusive groups are for operational work where each game should appear in only one group."
+  ]
+}

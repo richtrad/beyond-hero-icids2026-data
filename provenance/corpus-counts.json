@@ -1,0 +1,9 @@
+{
+  "original_protagonist_rows": 90388,
+  "blank_title_rows": 1,
+  "nonempty_title_protagonist_rows": 90387,
+  "distinct_title_strings": 89043,
+  "distinct_title_year_combinations": 90180,
+  "visibility_export_rows": 90387,
+  "named_identity_tuple_sets_equal": true
+}

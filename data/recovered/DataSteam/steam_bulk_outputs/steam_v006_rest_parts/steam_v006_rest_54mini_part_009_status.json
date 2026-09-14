@@ -1,0 +1,40 @@
+{
+  "id": "batch_6a37e9d728d4819087613b0cdb5819dd",
+  "completion_window": "24h",
+  "created_at": 1782049239,
+  "endpoint": "/v1/responses",
+  "input_file_id": "file-V1njho9RWZTgV8AcDdjnLt",
+  "object": "batch",
+  "status": "completed",
+  "cancelled_at": null,
+  "cancelling_at": null,
+  "completed_at": 1782049512,
+  "error_file_id": null,
+  "errors": null,
+  "expired_at": null,
+  "expires_at": 1782135639,
+  "failed_at": null,
+  "finalizing_at": 1782049503,
+  "in_progress_at": 1782049240,
+  "metadata": {
+    "description": "Steam v006 REST gpt-5.4-mini part 009"
+  },
+  "model": "gpt-5.4-mini-2026-03-17",
+  "output_file_id": "file-Lg1C2R1eAozV8TCyDYqAjZ",
+  "request_counts": {
+    "completed": 100,
+    "failed": 0,
+    "total": 100
+  },
+  "usage": {
+    "input_tokens": 323752,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 399370,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 723122
+  }
+}

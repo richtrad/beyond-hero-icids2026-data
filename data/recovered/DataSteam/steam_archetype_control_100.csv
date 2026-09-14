@@ -1,0 +1,101 @@
+﻿control_id,steam_search_title,protagonist,protagonist_clarity,broad_bucket,why_useful_for_archetype_control,preliminary_archetype_seed_note
+1,The Witcher 3: Wild Hunt,Geralt of Rivia,fixed_named_single,RPG / action RPG,"Silně definovaný hrdina s dlouhou kontinuitou, morálními volbami a jasnou osobností.",Wanderer / Warrior / Caregiver tension
+2,The Witcher 2: Assassins of Kings Enhanced Edition,Geralt of Rivia,fixed_named_single,RPG / action RPG,Stejný protagonista jako kontrola napříč sérií a odlišnými volbami.,Wanderer / Warrior
+3,Cyberpunk 2077,V,customizable_but_strong_role,RPG / action RPG,"Avatar je upravitelný, ale má silný dramatický oblouk, vztah k Johnnymu a jasný konflikt identity.",Rebel / Seeker / Shadow
+4,Disco Elysium - The Final Cut,Harrier Du Bois,fixed_named_single,narrative RPG,"Extrémně silně charakterizovaný protagonista, vhodný pro archetypy stínu, rozpadu a obnovy.",Wounded detective / Fool / Shadow
+5,Planescape: Torment,The Nameless One,fixed_named_single,narrative RPG,"Jedna z nejsilnějších herních postav pro archetyp paměti, viny a identity.",Wanderer / Shadow / Seeker
+6,Torment: Tides of Numenera,The Last Castoff,fixed_role_single,narrative RPG,"Jasně definovaná role potomka/odvržené inkarnace, vhodná pro archetyp identity.",Orphan / Seeker
+7,Mass Effect Legendary Edition,Commander Shepard,customizable_but_strong_role,RPG / sci-fi,"Upravitelná postava, ale jednoznačný vůdcovský protagonista napříč trilogií.",Hero / Ruler / Protector
+8,Mass Effect 2,Commander Shepard,customizable_but_strong_role,RPG / sci-fi,"Dobrá kontrola pro samostatný díl se silným tématem smrti, návratu a loajality.",Returned hero / Leader
+9,Mass Effect Andromeda,Ryder,customizable_but_strong_role,RPG / sci-fi,"Jasná hlavní role průzkumníka a nástupce, i přes editovatelnou identitu.",Explorer / Heir
+10,Dragon Age II,Hawke,customizable_but_named,RPG / fantasy,"Na rozdíl od mnoha RPG má protagonista pevné jméno, rodinný příběh a městský vzestup/pád.",Survivor / Outsider
+11,Deus Ex: Game of the Year Edition,JC Denton,fixed_named_single,immersive sim,"Ikonický protagonista konspirace, transhumanismu a volby mezi systémy.",Seeker / Rebel / Messiah
+12,Deus Ex: Human Revolution - Director's Cut,Adam Jensen,fixed_named_single,immersive sim,Silný archetyp augmentovaného člověka a konfliktní identity.,Wounded warrior / Cyborg / Seeker
+13,Deus Ex: Mankind Divided,Adam Jensen,fixed_named_single,immersive sim,Pokračující kontrola stejné postavy v odlišném sociálním konfliktu.,Outcast / Investigator
+14,Prey,Morgan Yu,customizable_but_strong_role,immersive sim,"Jasně ukotvený protagonista s tématem paměti, experimentu a identity.",Scientist / Seeker / Shadow
+15,Dishonored,Corvo Attano,fixed_named_single,immersive sim / stealth,Pomstychtivý ochránce a padlý královský strážce s výrazným morálním rozpětím.,Avenger / Guardian
+16,Dishonored 2,Emily Kaldwin / Corvo Attano,fixed_dual,immersive sim / stealth,"Dva jasní protagonisté, oba s královskou a mstivou linkou.",Ruler / Avenger
+17,Deathloop,Colt Vahn,fixed_named_single,immersive sim / action,"Silný protagonista smyčky, zapomnění a vzpoury proti systému.",Rebel / Trickster
+18,BioShock,Jack,fixed_named_single,narrative FPS,Jasný protagonista s twistem identity a svobodné vůle.,Pawn / Rebel / Orphan
+19,BioShock 2,Subject Delta,fixed_role_single,narrative FPS,"Vhodné pro archetyp ochránce, rodičovství a monstrózního těla.",Protector / Monster
+20,BioShock Infinite,Booker DeWitt,fixed_named_single,narrative FPS,"Silný protagonista viny, násilí, dluhu a identity.",Fallen hero / Father / Shadow
+21,Half-Life,Gordon Freeman,fixed_named_single_silent,FPS,"Tichý, ale jasně identifikovatelný protagonista s výraznou kulturní ikonografií.",Scientist / Accidental hero
+22,Half-Life 2,Gordon Freeman,fixed_named_single_silent,FPS,Kontrola tichého protagonisty v mesiášské roli odporu.,Savior / Silent hero
+23,Portal,Chell,fixed_named_single_silent,puzzle / sci-fi,"Jasná protagonistka, i když tichá; užitečná kontrola pro minimálně verbalizovanou postavu.",Survivor / Trickster
+24,Portal 2,Chell,fixed_named_single_silent,puzzle / sci-fi,Stejná postava ve výraznější vztahové a komické struktuře.,Survivor / Rebel
+25,Control Ultimate Edition,Jesse Faden,fixed_named_single,action adventure,"Velmi jasná protagonistka se silnou linkou hledání bratra, moci a instituce.",Seeker / Witch / Ruler
+26,Alan Wake,Alan Wake,fixed_named_single,psychological thriller,Spisovatel jako protagonista hororové sebeprojekce a příběhové reality.,Creator / Shadow
+27,Quantum Break,Jack Joyce,fixed_named_single,sci-fi action,Protagonista časového zlomu a osobní odpovědnosti.,Accidental hero / Seeker
+28,Max Payne,Max Payne,fixed_named_single,noir action,Extrémně jasný noir antihrdina s tématem ztráty a pomsty.,Avenger / Wounded hero
+29,Max Payne 2: The Fall of Max Payne,Max Payne,fixed_named_single,noir action,Pokračování stejného antihrdinského archetypu s romanticko-tragickou linkou.,Avenger / Lover
+30,Max Payne 3,Max Payne,fixed_named_single,noir action,"Starší, vyhořelá varianta stejného protagonisty vhodná pro proměnu archetypu.",Fallen guardian / Exile
+31,Tomb Raider,Lara Croft,fixed_named_single,action adventure,Moderní origin story archetypu přeživší dobrodružky.,Explorer / Survivor
+32,Rise of the Tomb Raider,Lara Croft,fixed_named_single,action adventure,Stejná protagonistka ve fázi posedlosti a dědictví.,Explorer / Seeker
+33,Shadow of the Tomb Raider,Lara Croft,fixed_named_single,action adventure,Kontrola pro temnější podobu archetypu průzkumníka a ničivých následků.,Explorer / Shadow
+34,Horizon Zero Dawn Complete Edition,Aloy,fixed_named_single,open-world action RPG,"Silně definovaná hrdinka hledající původ, identitu a místo ve světě.",Seeker / Hero / Outsider
+35,Horizon Forbidden West Complete Edition,Aloy,fixed_named_single,open-world action RPG,Pokračování stejné protagonistky v roli zachránkyně světa.,Hero / Protector
+36,God of War,Kratos / Atreus,fixed_dual,action adventure,"Dvojice otec–syn, velmi vhodná pro archetyp rodiče, válečníka a dědice.",Warrior / Father / Child
+37,God of War Ragnarök,Kratos / Atreus,fixed_dual,action adventure,Pokračující archetyp otce a syna s tématem osudu a emancipace.,Father / Heir / Warrior
+38,Marvel's Spider-Man Remastered,Peter Parker,fixed_named_single,superhero action,Kanonický hrdina s jasným archetypem odpovědnosti a oběti.,Hero / Caregiver
+39,Marvel's Spider-Man: Miles Morales,Miles Morales,fixed_named_single,superhero action,"Mladý nástupce a hrdina identity, komunity a dospívání.",Heir / Hero / Everyman
+40,The Last of Us Part I,Joel / Ellie,fixed_dual,survival narrative,"Silná dvojice pro archetyp otce, dítěte, přežití a morálního stínu.",Father / Innocent / Shadow
+41,The Last of Us Part II Remastered,Ellie / Abby,fixed_dual,survival narrative,"Duální protagonistky pomsty, zrcadlení a rozkladu heroismu.",Avenger / Shadow / Mirror
+42,Days Gone,Deacon St. John,fixed_named_single,open-world survival,"Jasný protagonista loajality, traumatu a ztraceného domova.",Survivor / Lover / Outlaw
+43,Red Dead Redemption 2,Arthur Morgan,fixed_named_single,open-world narrative,"Velmi silný antihrdina s obloukem viny, loajality a vykoupení.",Outlaw / Redeemed hero
+44,Grand Theft Auto V,Michael / Franklin / Trevor,fixed_ensemble,open-world crime,"Tři pevní protagonisté, vhodní pro kontrolu ensemble archetypů.",Outlaw / Trickster / Shadow
+45,Mafia: Definitive Edition,Tommy Angelo,fixed_named_single,crime narrative,"Jasný oblouk vzestupu, loajality, zločinu a ztráty iluzí.",Everyman / Outlaw
+46,Mafia II: Definitive Edition,Vito Scaletta,fixed_named_single,crime narrative,"Silný protagonista rodiny, ambice a pasti kriminální identity.",Outlaw / Son
+47,Mafia III: Definitive Edition,Lincoln Clay,fixed_named_single,crime narrative,"Pomsta, trauma z války a outsiderství v rasově napjatém světě.",Avenger / Warrior / Outsider
+48,L.A. Noire,Cole Phelps,fixed_named_single,detective noir,"Detektivní protagonista viny, kariérismu a morálního pádu.",Investigator / Fallen hero
+49,Sleeping Dogs: Definitive Edition,Wei Shen,fixed_named_single,crime action,"Undercover protagonista rozpolcený mezi rolí, loajalitou a identitou.",Double agent / Warrior
+50,Yakuza 0,Kazuma Kiryu / Goro Majima,fixed_dual,crime drama,Dvojice velmi jasných protagonistů s kontrastními archetypy cti a masky.,Honorable warrior / Trickster
+51,Yakuza Kiwami,Kazuma Kiryu,fixed_named_single,crime drama,Kontrola jednoho silně definovaného protagonisty v melodramatu cti.,Guardian / Warrior
+52,Yakuza: Like a Dragon,Ichiban Kasuga,fixed_named_single,JRPG / crime drama,"Výrazný protagonista idealismu, loajality a pohádkového sebeobrazu.",Fool / Hero / Loyal companion
+53,Like a Dragon: Infinite Wealth,Ichiban Kasuga / Kazuma Kiryu,fixed_dual,JRPG / crime drama,"Dva hrdinové různých generací, vhodné pro srovnání archetypů.",Fool-hero / Old warrior
+54,Judgment,Takayuki Yagami,fixed_named_single,detective action,Jasný detektivní protagonista s tématem viny a spravedlnosti.,Investigator / Redeemer
+55,Lost Judgment,Takayuki Yagami,fixed_named_single,detective action,Pokračující detektivní archetyp s morálními dilematy.,Investigator / Guardian
+56,Persona 5 Royal,Joker / Ren Amamiya,fixed_role_single,JRPG,Silný vůdce rebelů a zlodějských masek; jméno částečně kanonizované mimo hru.,Trickster / Rebel / Leader
+57,Persona 4 Golden,Yu Narukami / protagonist,fixed_role_single,JRPG,"Tichý, ale jasně centrální protagonista vyšetřovací skupiny.",Investigator / Everyman
+58,NieR:Automata,2B / 9S / A2,fixed_ensemble,action RPG,"Tři pevní protagonisté s tématy identity, poslušnosti a vzpoury.",Soldier / Seeker / Rebel
+59,NieR Replicant ver.1.22474487139...,Nier,fixed_named_single,action RPG,"Silný protagonista bratrské/otcovské péče, oběti a tragického omylu.",Caregiver / Warrior / Tragic hero
+60,FINAL FANTASY VII REMAKE INTERGRADE,Cloud Strife,fixed_named_single,JRPG,"Ikonický protagonista identity, paměti a maskulinní masky.",Warrior / False self / Seeker
+61,FINAL FANTASY XV WINDOWS EDITION,Noctis Lucis Caelum,fixed_named_single,JRPG,Princ a vyvolený hrdina s tématem přátelství a oběti.,Prince / Sacrificial hero
+62,FINAL FANTASY XVI,Clive Rosfield,fixed_named_single,action RPG,"Jasný hrdina viny, bratrství, otroctví a osvobození.",Avenger / Liberator
+63,CRISIS CORE –FINAL FANTASY VII– REUNION,Zack Fair,fixed_named_single,action RPG,Velmi čitelný idealistický hrdina a mentorový předobraz.,Innocent hero / Warrior
+64,KINGDOM HEARTS HD 1.5+2.5 ReMIX,Sora,fixed_named_single,action RPG,"Jasný archetyp čistého hrdiny, přátelství a světla.",Innocent / Hero
+65,Undertale,Frisk,fixed_role_single,RPG,"Minimalistický, ale centrální protagonista volby mezi násilím a soucitem.",Innocent / Trickster / Judge
+66,OMORI,Sunny / Omori,fixed_dual_aspect,psychological RPG,"Silně archetypální dvojí identita, trauma a vnitřní svět.",Shadow self / Wounded child
+67,Oxenfree,Alex,fixed_named_single,narrative adventure,"Jasná protagonistka dospívání, viny a nadpřirozené komunikace.",Teen seeker / Wounded mediator
+68,Night in the Woods,Mae Borowski,fixed_named_single,narrative adventure,"Silně charakterizovaná protagonistka návratu domů, deprese a outsiderství.",Outsider / Wounded child
+69,Firewatch,Henry,fixed_named_single,walking simulator,"Jasný protagonista úniku, viny a vztahové izolace.",Exile / Caregiver
+70,What Remains of Edith Finch,Edith Finch,fixed_named_single,walking simulator,Protagonistka rodinné paměti a dědictví; jasný rámec vypravěčky.,Witness / Keeper of memory
+71,Gone Home,Kaitlin Greenbriar,fixed_named_single,walking simulator,Jasná vyšetřující protagonistka domácí paměti a návratu.,Returner / Investigator
+72,The Stanley Parable: Ultra Deluxe,Stanley,fixed_named_single,metanarrative,Jasný protagonista i přes metatextovost; vhodný pro archetyp ovládaného avatara.,Everyman / Pawn / Rebel
+73,Spiritfarer: Farewell Edition,Stella,fixed_named_single,management / narrative,"Velmi jasná protagonistka péče, smrti a doprovázení.",Caregiver / Psychopomp
+74,Celeste,Madeline,fixed_named_single,platformer / narrative,Výborná kontrola pro archetyp vnitřního stínu a překonávání sebe sama.,Seeker / Wounded hero
+75,Hollow Knight,The Knight,fixed_role_single_silent,metroidvania,"Tichý, ale jasně centrální hrdina; vhodný pro archetyp prázdnoty a oběti.",Empty vessel / Sacrifice
+76,Ori and the Blind Forest: Definitive Edition,Ori,fixed_named_single,metroidvania,"Jasně identifikovatelný protagonista nevinnosti, přírody a obnovy.",Innocent / Healer
+77,Ori and the Will of the Wisps,Ori,fixed_named_single,metroidvania,Pokračování téhož archetypu ve vyspělejší ochranitelské roli.,Innocent / Protector
+78,Psychonauts,Razputin Aquato,fixed_named_single,platformer / adventure,Silně charakterizovaný dětský hrdina vstupující do psychických světů.,Child hero / Trickster
+79,Psychonauts 2,Razputin Aquato,fixed_named_single,platformer / adventure,Kontrola vývoje stejného protagonisty v instituci a rodinné historii.,Apprentice / Healer
+80,Hades,Zagreus,fixed_named_single,roguelite / narrative,"Jasný protagonista útěku z podsvětí, synovského konfliktu a identity.",Rebel son / Seeker
+81,Hades II,Melinoë,fixed_named_single,roguelite / narrative,"Jasná protagonistka lovu, dědictví a pomsty v mytologickém rámci.",Witch / Avenger / Daughter
+82,Bastion,The Kid,fixed_role_single,action RPG,Centrální protagonista postapokalyptické obnovy a volby.,Survivor / Restorer
+83,Transistor,Red,fixed_named_single,action RPG,"Silná protagonistka hlasu, ztráty a vztahu se zbraní/partnerem.",Artist / Avenger
+84,Katana ZERO,Subject Zero,fixed_named_single,action / narrative,"Jasný protagonista paměti, drog, násilí a manipulace.",Assassin / Broken weapon
+85,Shovel Knight: Treasure Trove,Shovel Knight,fixed_named_single,platformer,"Klasicky čitelný rytířský protagonista, vhodný jako jednodušší archetypální kontrola.",Knight / Loyal lover
+86,Cuphead,Cuphead,fixed_named_single,run and gun,"Jasný cartoonový protagonista hazardu, trestu a splácení dluhu.",Fool / Trickster
+87,Stray,Cat,fixed_nonhuman_single,adventure,"Netypický, ale jasný ne-lidský protagonista; dobrá kontrola nehumanoidního archetypu.",Wanderer / Innocent
+88,Grim Fandango Remastered,Manny Calavera,fixed_named_single,adventure,"Silně definovaný noir protagonista smrti, viny a vykoupení.",Trickster / Redeemer
+89,Return to Monkey Island,Guybrush Threepwood,fixed_named_single,adventure,Jasný komediální dobrodruh a aspirující pirát.,Fool / Trickster / Explorer
+90,The Secret of Monkey Island: Special Edition,Guybrush Threepwood,fixed_named_single,adventure,Klasická kontrola stejného komediálního protagonisty v počátku archetypu.,Fool / Seeker
+91,Syberia,Kate Walker,fixed_named_single,adventure,Jasná protagonistka proměny z právničky v poutnici.,Seeker / Wanderer
+92,The Longest Journey,April Ryan,fixed_named_single,adventure,"Silná protagonistka přechodu mezi světy, identity a tvořivosti.",Portal traveler / Chosen one
+93,Kathy Rain,Kathy Rain,fixed_named_single,detective adventure,Jasná detektivní protagonistka rodinného tajemství a rebelství.,Investigator / Rebel
+94,Sherlock Holmes: Crimes and Punishments,Sherlock Holmes,fixed_named_single,detective adventure,Extrémně jasný vyšetřovatelský archetyp.,Sage / Investigator
+95,The Thaumaturge,Wiktor Szulski,fixed_named_single,RPG / mystery,"Jasný protagonista okultního vyšetřování, traumatu a rodinné minulosti.",Occult investigator / Shadow
+96,Vampyr,Jonathan Reid,fixed_named_single,action RPG,Lékař-upír jako velmi čitelný morální a monstrózní archetyp.,Healer / Monster / Shadow
+97,Banishers: Ghosts of New Eden,Red mac Raith / Antea Duarte,fixed_dual,action RPG,"Dvojice lovců duchů s tématem lásky, smrti a oběti.",Lover / Exorcist / Psychopomp
+98,Kingdom Come: Deliverance,Henry,fixed_named_single,historical RPG,"Jasný protagonista z obyčejného původu, silný oblouk zrání.",Everyman / Apprentice / Hero
+99,Pentiment,Andreas Maler,fixed_named_single,narrative adventure,"Silný protagonista vzdělance, svědka, viny a historické paměti.",Artist / Witness / Seeker
+100,SOMA,Simon Jarrett,fixed_named_single,sci-fi horror,"Jasný protagonista identity, těla a kopie vědomí.",Wounded self / Seeker / Ghost

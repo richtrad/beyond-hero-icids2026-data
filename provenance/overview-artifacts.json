@@ -1,0 +1,30 @@
+[
+  {
+    "path": "results/figures/hero_explorer_overview.png",
+    "sha256": "e1e5d1076dfebe248d68dc04c6cb842b686751c12a00d8e23183a962d41ea432"
+  },
+  {
+    "path": "results/figures/hero_explorer_overview.svg",
+    "sha256": "1518264d4ef32799f7feabc1b54786108d6c6758c18e612e2b1f35dc10f8749f"
+  },
+  {
+    "path": "results/figures/twelve_archetypes_overview.png",
+    "sha256": "527db26ca1f1b83c29fe4609ebe4b187af71957246e7f165541c7ccfbe127624"
+  },
+  {
+    "path": "results/tables/archetype_endpoints.csv",
+    "sha256": "2663b89c7100c0f31fdd10bf264abe10f2440a1c76f4c3696ce5342e15717d51"
+  },
+  {
+    "path": "results/tables/raw_archetype_shares_1980_2024.csv",
+    "sha256": "579c1d29cdaa79db749de2f0dbf81272512d00b289ea212025552f4f7a0934a1"
+  },
+  {
+    "path": "results/tables/title_year_counts_corrected.csv",
+    "sha256": "9b43ac0a99bd90f8199649bd740736d7ea69d36d4c3345c5b8d237408a4f6e24"
+  },
+  {
+    "path": "results/tables/visibility_weighted_archetype_shares_1980_2024.csv",
+    "sha256": "4f88d008094cab387af4e8369a2f8a679403f49e3a9c0807bf9ec2ed8077bff1"
+  }
+]

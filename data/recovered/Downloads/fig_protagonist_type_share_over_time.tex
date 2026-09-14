@@ -1,0 +1,69 @@
+% Required in the preamble:
+% \usepackage{pgfplots}
+% \usepackage{xcolor}
+% \usepgfplotslibrary{groupplots}
+% \pgfplotsset{compat=1.18}
+
+\definecolor{archExplorer}{HTML}{9BB63B}
+\definecolor{archOutlaw}{HTML}{D6C700}
+\definecolor{archMagician}{HTML}{D79A15}
+\definecolor{archHero}{HTML}{D07A1F}
+\definecolor{archLover}{HTML}{CF4E57}
+\definecolor{archJester}{HTML}{C52A7D}
+\definecolor{archEveryman}{HTML}{9446A6}
+\definecolor{archCaregiver}{HTML}{3D6DB6}
+\definecolor{archRuler}{HTML}{1E86B8}
+\definecolor{archCreator}{HTML}{0C98B5}
+\definecolor{archInnocent}{HTML}{1E9A94}
+\definecolor{archSage}{HTML}{0FAF74}
+\definecolor{gridgray}{HTML}{CFCFCF}
+
+\pgfplotstableread{
+period Fixed Silent Systemic Custom FixedRole Sports
+1980 100.000 0.000 0.000 0.000 0.000 0.000
+1985 81.818 0.000 4.545 0.000 4.545 9.091
+1990 85.556 3.333 5.556 0.000 2.222 3.333
+1995 79.558 2.210 8.840 1.105 0.552 7.735
+2000 78.049 2.846 10.976 5.285 0.407 2.439
+2005 76.792 5.631 10.068 1.877 1.536 4.096
+2010 77.843 8.208 6.545 2.146 2.790 2.468
+2015 74.798 10.725 6.281 1.215 3.338 3.644
+2020 75.612 8.305 7.708 1.282 3.310 3.784
+}\typedata
+
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    width=\linewidth,
+    height=0.47\linewidth,
+    xmin=1980, xmax=2020,
+    ymin=0, ymax=95,
+    xtick={1980,1985,1990,1995,2000,2005,2010,2015,2020},
+    xticklabels={1980--84,1985--89,1990--94,1995--99,2000--04,2005--09,2010--14,2015--19,2020--24},
+    xticklabel style={rotate=45, anchor=east, font=\scriptsize},
+    ymajorgrids,
+    grid style={dotted, color=gridgray!70},
+    xlabel={Release period},
+    ylabel={Share of typed records (\%)},
+    legend columns=2,
+    legend style={font=\scriptsize, at={(0.5,-0.26)}, anchor=north},
+    legend cell align={left},
+]
+\addplot+[color=archHero, very thick, mark=*] table[x=period,y=Fixed] {\typedata};
+\addlegendentry{Fixed character}
+\addplot+[color=archExplorer, thick, mark=diamond*] table[x=period,y=Silent] {\typedata};
+\addlegendentry{Silent avatar}
+\addplot+[color=archRuler, thick, mark=triangle*] table[x=period,y=Systemic] {\typedata};
+\addlegendentry{Systemic role}
+\addplot+[color=archCreator, thick, mark=square*] table[x=period,y=Custom] {\typedata};
+\addlegendentry{Customizable}
+\addplot+[color=archSage, semithick, mark=o] table[x=period,y=FixedRole] {\typedata};
+\addlegendentry{Fixed role}
+\addplot+[color=archJester, semithick, mark=x] table[x=period,y=Sports] {\typedata};
+\addlegendentry{Sports/racing}
+\end{axis}
+\end{tikzpicture}
+\caption{Share of protagonist-type groups across five-year release periods. Fixed characters remain dominant but decline relative to silent/projective, systemic, and customizable forms.}
+\label{fig:protagonist_type_share_over_time}
+\end{figure}

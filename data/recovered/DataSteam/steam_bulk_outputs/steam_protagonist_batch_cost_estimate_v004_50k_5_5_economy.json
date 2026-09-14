@@ -1,0 +1,19 @@
+{
+  "note": "Conservative estimate based on previous v003 50-game GPT-5.5 chunk. v004 compact output may be cheaper.",
+  "games": 50000,
+  "chunk_size": 50,
+  "requests": 1000,
+  "estimated_input_tokens": 7138000,
+  "estimated_output_tokens": 12122000,
+  "estimated_batch_usd": 199.67,
+  "batch_rates_assumed_usd_per_1m": {
+    "input": 2.5,
+    "output": 15.0
+  },
+  "model": "gpt-5.5",
+  "input_csv": "steam_bulk_outputs\\steam_catalog_merged.csv",
+  "jsonl_output": "steam_bulk_outputs\\steam_protagonist_batch_input_v004_50k_5_5_economy.jsonl",
+  "selected_games_csv": "steam_bulk_outputs\\steam_protagonist_batch_selected_games_v004_50k_5_5_economy.csv",
+  "manifest_csv": "steam_bulk_outputs\\steam_protagonist_batch_manifest_v004_50k_5_5_economy.csv",
+  "min_reactions": 1
+}

@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-06-22T01:43:34",
+  "from_year": 1970,
+  "to_year_exclusive": 2005,
+  "test_year": 1999,
+  "raw_rows": 0,
+  "broad_candidate_rows": 0,
+  "low_priority_review_rows": 0,
+  "outputs": {
+    "raw": "igdb_outputs\\pre2005_candidates_v001\\igdb_pre2005_raw_main_games_v001.csv",
+    "broad_candidates": "igdb_outputs\\pre2005_candidates_v001\\igdb_pre2005_broad_candidates_v001.csv",
+    "low_priority_review": "igdb_outputs\\pre2005_candidates_v001\\igdb_pre2005_low_priority_review_v001.csv",
+    "year_counts": "igdb_outputs\\pre2005_candidates_v001\\igdb_pre2005_year_counts_v001.csv",
+    "decade_counts": "igdb_outputs\\pre2005_candidates_v001\\igdb_pre2005_decade_counts_v001.csv",
+    "examples_by_year": "igdb_outputs\\pre2005_candidates_v001\\igdb_pre2005_examples_by_year_v001.csv"
+  },
+  "note": "This catalog uses IGDB first_release_date and category=0 main_game. It is a broad pre-LLM candidate pool."
+}
