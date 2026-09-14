@@ -54,7 +54,7 @@ Participant comparison evaluates a selected subset and is not full-corpus valida
 
 ## Reproduce the overview
 
-Run `python tools/build_overview.py` with pandas and matplotlib installed. The two overview figures are **new renderings of archived aggregate CSV values**, restricted to 1980–2024; they do not rerun model inference or claim an independently reconstructed raw-to-figure pipeline. The original aggregate exports and plotting variants remain unchanged.
+Run `python tools/build_overview.py` with pandas and matplotlib installed. The overview figures, including the [additional archetype comparisons](../README.md#investigator-and-magician-knowledge-and-transformation), are **new renderings of archived aggregate CSV values**, restricted to 1980–2024; they do not rerun model inference or claim an independently reconstructed raw-to-figure pipeline. The original aggregate exports and plotting variants remain unchanged. To regenerate only the three additional comparisons, run `python tools/plot_archetype_stories.py`.
 
 - [Raw source CSV](../data/recovered/Downloads/archetype_raw_share_by_half_decade_v2.csv)
 - [Visibility-weighted source CSV](../data/recovered/Downloads/archetype_review_weighted_share_by_half_decade_v2.csv)

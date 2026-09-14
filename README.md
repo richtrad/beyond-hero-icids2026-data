@@ -51,7 +51,33 @@ In the archived raw-share series, Hero's relative share decreases while Explorer
 
 These percentages describe shares of coded archetype weight, not player numbers or sales. The visibility-weighted view answers a different question and does not reproduce every raw trend: its 2020–2024 Hero and Explorer shares are 18.6% and 17.1%, respectively. The overview plots are reproducible renderings of preserved aggregate CSV exports, not newly inferred labels.
 
-## More than a Hero–Explorer comparison
+## Investigator and Magician: knowledge and transformation
+
+**Sage / Investigator remains a recurring protagonist function across all nine periods.** In the visibility-weighted series, its share stays between **10.1% and 12.3% from 1985–2009**, then falls to **7.6% in 2020–2024**. The raw series fluctuates more modestly, reaching its highest share of **9.6% in 1995–1999** and ending at **7.2%**. Investigation therefore has its own trajectory alongside exploration and heroic action.
+
+![Sage/Investigator and Magician/Transformer across five decades, comparing raw and visibility-weighted shares](results/figures/investigator_magician_overview.png)
+
+Magician / Transformer provides a different profile: its weighted share is highest in **1980–1984 (15.2%)**, whereas its raw share peaks in **1990–1994 (7.5%)**. By 2020–2024 the respective shares are **6.6% and 4.9%**. The timing of prominence depends on which view of the corpus we examine; these category labels describe coded functions rather than counts of detective or fantasy games.
+
+## Outlaw and Ruler: transgression and control
+
+**Rebellion and authority share a visibility-weighted peak in 2000–2004:** Rebel / Outlaw reaches **12.0%**, and Ruler / Leader also reaches **12.0%**. Both subsequently lose relative share, ending at **8.8% and 6.1%**, respectively. Two contrasting functions thus become especially prominent in the same weighted release period.
+
+![Rebel/Outlaw and Ruler/Leader across five decades, comparing raw and visibility-weighted shares](results/figures/outlaw_ruler_overview.png)
+
+The raw view separates their trajectories. Outlaw rises from **1.6% in 1980–1984** to a peak of **5.4% in 2015–2019**, before ending at **4.0%**. Ruler stays within **4.4–5.8%** across the nine periods. Their shared weighted peak is a pattern of the aggregate distribution; it does not establish that the two labels occur together in individual protagonists.
+
+## Creator and Caregiver: making and protecting
+
+**Creation and care become more prominent in the later visibility-weighted periods.** Creator / Artist rises from **1.8% in 2000–2004** to **5.9% in 2020–2024**, while Caregiver / Guardian rises from **0.7% to 3.2%**. These smaller categories reveal changes that are harder to see on a scale dominated by Hero and Explorer.
+
+![Creator/Artist and Caregiver/Guardian across five decades, comparing raw and visibility-weighted shares](results/figures/creator_caregiver_overview.png)
+
+Their raw shares tell a more restrained story: Creator fluctuates between **3.4% and 4.3%**, and Caregiver ends at **3.0%**, below its early **3.9%**. The recent weighted rise therefore does not describe an equivalent rise throughout the raw corpus. Each comparison uses the same vertical scale in its two panels; scales differ between comparisons to keep the smaller categories legible.
+
+All six series come from the preserved [raw](results/tables/raw_archetype_shares_1980_2024.csv) and [visibility-weighted](results/tables/visibility_weighted_archetype_shares_1980_2024.csv) tables. [Regenerate these three figures](tools/plot_archetype_stories.py) without rerunning the model or processing the full archive.
+
+## The full twelve-category picture
 
 ![All twelve archetypes in the archived raw-share export](results/figures/twelve_archetypes_overview.png)
 

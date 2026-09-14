@@ -1,11 +1,35 @@
 [
   {
+    "path": "results/figures/creator_caregiver_overview.png",
+    "sha256": "00b611486fbab08c99a4657e802597453e60262ec6810c0e9d806b7c5852baa4"
+  },
+  {
+    "path": "results/figures/creator_caregiver_overview.svg",
+    "sha256": "41f805b0e0f0ec94bec3df38898ad15a22d5f3556bd6b032eb9359a0e7623211"
+  },
+  {
     "path": "results/figures/hero_explorer_overview.png",
     "sha256": "e1e5d1076dfebe248d68dc04c6cb842b686751c12a00d8e23183a962d41ea432"
   },
   {
     "path": "results/figures/hero_explorer_overview.svg",
     "sha256": "1518264d4ef32799f7feabc1b54786108d6c6758c18e612e2b1f35dc10f8749f"
+  },
+  {
+    "path": "results/figures/investigator_magician_overview.png",
+    "sha256": "3b4ecbe1c39d1747d192b1443961f94f421132d3f984ef8c3f04561c8c35474f"
+  },
+  {
+    "path": "results/figures/investigator_magician_overview.svg",
+    "sha256": "3fbad8af8d4da7e8278c28f94219d891c67db78f2800aeee80b4a3b8067e52dc"
+  },
+  {
+    "path": "results/figures/outlaw_ruler_overview.png",
+    "sha256": "9bcd06b098e309b3f3e44d4f4b7ba78802e724b69590762f69c2b69b8fdf7c7d"
+  },
+  {
+    "path": "results/figures/outlaw_ruler_overview.svg",
+    "sha256": "f6020d71ecaec26ec6acbe76b7b024f33a7d3d3423c3159cbd1bea5bbce4026f"
   },
   {
     "path": "results/figures/twelve_archetypes_overview.png",

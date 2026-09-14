@@ -14,6 +14,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import pandas as pd
+from plot_archetype_stories import build_stories
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -127,6 +128,7 @@ def main():
     vis=vis.set_index('period').loc[periods].astype(float)
     raw.to_csv(ROOT/'results/tables/raw_archetype_shares_1980_2024.csv')
     vis.to_csv(ROOT/'results/tables/visibility_weighted_archetype_shares_1980_2024.csv')
+    build_stories()
     plt.rcParams.update({'font.family':'DejaVu Sans','font.size':11,'axes.spines.top':False,'axes.spines.right':False,'svg.fonttype':'none'})
     fig,axes=plt.subplots(1,2,figsize=(13,4.8),sharey=True,layout='constrained')
     colors={'Hero/Warrior':'#cb6d22','Explorer/Seeker':'#528336','Everyman/Orphan':'#8059a0'}
@@ -180,7 +182,7 @@ def main():
           '“Heroic exploration” and “exploratory heroism” express the paper\'s interpretation of changing ranked archetypal configurations. The categories are a predefined codebook. Technological, formal and cultural causes are not isolated by this descriptive analysis. Catalogue coverage, metadata quality and computational pre-coding influence the observed distributions.','',
           'Participant comparison evaluates a selected subset and is not full-corpus validation. Broader label overlap does not establish coding validity. The literature examples in [comparison](../comparison/README.md) are explicitly separated from participant responses and computational labels.','',
           '## Reproduce the overview','',
-          'Run `python tools/build_overview.py` with pandas and matplotlib installed. The two overview figures are **new renderings of archived aggregate CSV values**, restricted to 1980–2024; they do not rerun model inference or claim an independently reconstructed raw-to-figure pipeline. The original aggregate exports and plotting variants remain unchanged.','',
+          'Run `python tools/build_overview.py` with pandas and matplotlib installed. The overview figures, including the [additional archetype comparisons](../README.md#investigator-and-magician-knowledge-and-transformation), are **new renderings of archived aggregate CSV values**, restricted to 1980–2024; they do not rerun model inference or claim an independently reconstructed raw-to-figure pipeline. The original aggregate exports and plotting variants remain unchanged. To regenerate only the three additional comparisons, run `python tools/plot_archetype_stories.py`.','',
           '- [Raw source CSV]('+link('Downloads/archetype_raw_share_by_half_decade_v2.csv')+')',
           '- [Visibility-weighted source CSV]('+link('Downloads/archetype_review_weighted_share_by_half_decade_v2.csv')+')',
           '- [Endpoint table](../results/tables/archetype_endpoints.csv)',
@@ -193,6 +195,6 @@ def main():
     for p in sorted((ROOT/'results').rglob('*')):
         if p.is_file():artifacts.append({'path':p.relative_to(ROOT).as_posix(),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})
     write('provenance/overview-artifacts.json',json.dumps(artifacts,indent=2)+'\n')
-    print('Built catalogue, timeline, counts, 3 figure files and result tables.',flush=True)
+    print('Built catalogue, timeline, counts, 9 figure files and result tables.',flush=True)
 
 if __name__=='__main__':main()
